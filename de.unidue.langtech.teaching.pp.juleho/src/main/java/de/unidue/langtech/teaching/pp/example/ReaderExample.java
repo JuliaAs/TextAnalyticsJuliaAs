@@ -15,6 +15,7 @@ import org.apache.uima.util.Progress;
 import org.apache.uima.util.ProgressImpl;
 
 import de.unidue.langtech.teaching.pp.type.GoldLanguage;
+import de.unidue.langtech.teaching.type.RawTweet;
 
 /**
  * Example of a simple reader that reads a text file 
@@ -77,9 +78,9 @@ public class ReaderExample
         String[] parts = lines.get(currentLine).split("#");
         
         // it is always good to do some sanity checks
-        if (parts.length != 2) {
+        /**if (parts.length != 2) {
             throw new IOException("Wrong line format: " + lines.get(currentLine));
-        }
+        }*/
         
         // add gold standard value as annotation
         GoldLanguage goldLanguage = new GoldLanguage(jcas);
@@ -88,6 +89,11 @@ public class ReaderExample
         
         // add actual text of the document
         jcas.setDocumentText(parts[1]);
+        
+        /**String rw = "***SABATON***";
+        RawTweet raw = new RawTweet(jcas);
+        raw.setRawTweet(rw);
+        raw.addToIndexes();*/
         
         currentLine++;
     }

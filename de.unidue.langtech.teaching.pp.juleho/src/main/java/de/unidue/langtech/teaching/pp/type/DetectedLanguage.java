@@ -11,8 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Tue Oct 15 15:51:15 CEST 2013
- * XML source: /home/zesch/workspace_new/de.unidue.langtech.teaching.pp.example/src/main/resources/desc/type/LanguageType.xml
+ * Updated by JCasGen Mon Jan 01 23:59:25 CET 2018
+ * XML source: C:/Users/Peixaton/Desktop/txtanalytics/GIT/de.unidue.langtech.teaching.pp.juleho/src/main/resources/desc/type/TweetTimeStamp.xml
  * @generated */
 public class DetectedLanguage extends Annotation {
   /** @generated
@@ -54,10 +54,13 @@ public class DetectedLanguage extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {/*default - does nothing empty block */}
      
  
@@ -66,14 +69,18 @@ public class DetectedLanguage extends Annotation {
   //* Feature: language
 
   /** getter for language - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getLanguage() {
     if (DetectedLanguage_Type.featOkTst && ((DetectedLanguage_Type)jcasType).casFeat_language == null)
       jcasType.jcas.throwFeatMissing("language", "de.unidue.langtech.teaching.pp.type.DetectedLanguage");
     return jcasType.ll_cas.ll_getStringValue(addr, ((DetectedLanguage_Type)jcasType).casFeatCode_language);}
     
   /** setter for language - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setLanguage(String v) {
     if (DetectedLanguage_Type.featOkTst && ((DetectedLanguage_Type)jcasType).casFeat_language == null)
       jcasType.jcas.throwFeatMissing("language", "de.unidue.langtech.teaching.pp.type.DetectedLanguage");

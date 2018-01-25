@@ -9,6 +9,7 @@ import org.apache.uima.resource.ResourceInitializationException;
 
 import de.unidue.langtech.teaching.pp.type.DetectedLanguage;
 import de.unidue.langtech.teaching.pp.type.GoldLanguage;
+import de.unidue.langtech.teaching.pp.type.TweetTimeStamp;
 
 public class EvaluatorExample
     extends JCasAnnotator_ImplBase
@@ -38,11 +39,14 @@ public class EvaluatorExample
         throws AnalysisEngineProcessException
     {
         
-        DetectedLanguage detected = JCasUtil.selectSingle(jcas, DetectedLanguage.class);
+        //TweetTimeStamp tt = JCasUtil.selectSingle(jcas, TweetTimeStamp.class);
+        //System.out.println(tt.getTweetPostTime() + "*****Evaluator****");
+    	DetectedLanguage detected = JCasUtil.selectSingle(jcas, DetectedLanguage.class);
         GoldLanguage actual = JCasUtil.selectSingle(jcas, GoldLanguage.class);
 
         System.out.println(actual.getLanguage() + " detected as " + detected.getLanguage());
         
+        nrOfDocuments++;
         // FIXME: Keep track of correctly classified documents! 
     }
 

@@ -4,6 +4,7 @@ import java.util.Collection;
 
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
+import org.apache.uima.fit.descriptor.ConfigurationParameter;
 import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 
@@ -19,6 +20,9 @@ import de.unidue.langtech.teaching.pp.type.DetectedLanguage;
 public class BaselineExample
     extends JCasAnnotator_ImplBase
 {
+	public static final String PARAM_MESSAGE = "PARAM_MESSAGE";
+	@ConfigurationParameter(name = PARAM_MESSAGE, mandatory = true, defaultValue = "Hello everyone")
+	protected String message;
 
     @Override
     public void process(JCas jcas)
@@ -28,6 +32,8 @@ public class BaselineExample
         
         Collection<Token> tokens = JCasUtil.select(jcas, Token.class);
         System.out.println("CAS contains " + tokens.size() + " tokens.");
+        
+        System.out.println(message);
         
         DetectedLanguage languageAnno = new DetectedLanguage(jcas);
         languageAnno.setLanguage("EN");
