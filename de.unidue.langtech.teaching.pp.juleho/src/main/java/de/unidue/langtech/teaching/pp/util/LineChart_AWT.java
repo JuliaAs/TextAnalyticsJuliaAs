@@ -56,7 +56,7 @@ public class LineChart_AWT extends ApplicationFrame {
 		         true,true,false);
 		         
 		      ChartPanel chartPanel = new ChartPanel( lineChart );
-		      chartPanel.setPreferredSize( new java.awt.Dimension( 560 , 367 ) );
+		      chartPanel.setPreferredSize( new java.awt.Dimension( 860 , 367 ) );
 		      setContentPane( chartPanel ); 
 	
 	}

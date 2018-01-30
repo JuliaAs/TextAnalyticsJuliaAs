@@ -22,10 +22,14 @@ public class Run {
 	static Dater date;
 	static LineChart_AWT chart;
 	
+	public Run () {
+		System.out.println("Run");
+	}
 
 	public static void main(String[] args) throws ResourceInitializationException, UIMAException, IOException {
 		// TODO Auto-generated method stub
 		//d=new Dingstest();
+		System.out.println("Main Run");
 		bp = new BasicPipeline();
 		
 		runrun();
@@ -128,8 +132,7 @@ public class Run {
 		         "Häufigkeit Vs Zeit" ,
 		         "Häufigkeiten der Wörter");
 		         */
-		chart = new LineChart_AWT(SomeOtherExample.getName0(),SomeOtherExample.getName1(),SomeOtherExample.getName2(),
-				SomeOtherExample.getName3(),SomeOtherExample.getName4(),tm0,tm1,tm2,tm3,tm4); 
+		 
 		/**
 		chart.setTm0(tm0);
 		chart.setTm1(tm1);
@@ -142,6 +145,10 @@ public class Run {
 		chart.setN3(SomeOtherExample.getName3());
 		chart.setN4(SomeOtherExample.getName4());
 		*/
+		
+		
+		chart = new LineChart_AWT(SomeOtherExample.getName0(),SomeOtherExample.getName1(),SomeOtherExample.getName2(),
+				SomeOtherExample.getName3(),SomeOtherExample.getName4(),tm0,tm1,tm2,tm3,tm4);
 		chart.pack( );
 	      RefineryUtilities.centerFrameOnScreen( chart );
 	      chart.setVisible( true );

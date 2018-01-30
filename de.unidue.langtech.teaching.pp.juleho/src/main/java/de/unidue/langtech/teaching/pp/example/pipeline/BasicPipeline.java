@@ -60,7 +60,7 @@ public class BasicPipeline
                 ),*/
         		CollectionReaderFactory.createReader(
                         MyReader.class,
-                        MyReader.PARAM_INPUT_FILE, "src/test/resources/test/prepared2.txt"
+                        MyReader.PARAM_INPUT_FILE, "src/test/resources/test/prepared1.txt"
                 ),        		
         		AnalysisEngineFactory.createEngineDescription(BreakIteratorSegmenter.class),
         		AnalysisEngineFactory.createEngineDescription(ArktweetPosTagger.class, ArktweetPosTagger.PARAM_LANGUAGE, "en",

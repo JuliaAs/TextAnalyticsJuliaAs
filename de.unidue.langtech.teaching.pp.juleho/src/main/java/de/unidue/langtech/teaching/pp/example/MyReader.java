@@ -1,11 +1,18 @@
 package de.unidue.langtech.teaching.pp.example;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
+import org.apache.commons.io.Charsets;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.uima.UimaContext;
 import org.apache.uima.collection.CollectionException;
@@ -16,6 +23,7 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.util.Progress;
 import org.apache.uima.util.ProgressImpl;
 
+import de.tudarmstadt.ukp.dkpro.core.api.io.ResourceCollectionReaderBase.Resource;
 import de.unidue.langtech.teaching.pp.type.GoldLanguage;
 import de.unidue.langtech.teaching.pp.type.TweetTimeStamp;
 import de.unidue.langtech.teaching.type.RawTweet;
@@ -28,10 +36,15 @@ public class MyReader extends JCasCollectionReader_ImplBase {
     public static final String PARAM_INPUT_FILE = "InputFile";
     @ConfigurationParameter(name = PARAM_INPUT_FILE, mandatory = true)
     private File inputFile;    
+    int currentReaderIdx = 0;
     
     private List<String> lines;
     private int currentLine;
-    private static String nextLine = null;
+    String line = null;
+    static FileInputStream is;
+    FileInputStream fis = null;
+    BufferedReader reader = null;
+    
     
     private static final String CREATE_MARKER = "\"created_at\":\"";
     private static final String TEXT_MARKER = "\"text\":\"";
@@ -47,8 +60,11 @@ public class MyReader extends JCasCollectionReader_ImplBase {
     {
         super.initialize(context);
         
+        
         try {
-           lines = FileUtils.readLines(inputFile);
+        	
+        	//lines = IOUtils.readLines(in, "UTF-8");
+           lines = FileUtils.readLines(inputFile, "UTF-8");
            currentLine = 0;
         }
         catch (IOException e) {
@@ -56,13 +72,15 @@ public class MyReader extends JCasCollectionReader_ImplBase {
         }
     }
     
+    
     /* 
      * true, if there is a next document, false otherwise
      */
     public boolean hasNext()
         throws IOException, CollectionException
     {
-        return currentLine < lines.size();
+        
+    	return currentLine < lines.size();
     }
 
 	public Progress[] getProgress() {
