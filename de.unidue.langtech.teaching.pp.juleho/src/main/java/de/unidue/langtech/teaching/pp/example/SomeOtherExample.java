@@ -191,7 +191,7 @@ extends JCasAnnotator_ImplBase{
 		//System.out.println("getN " + fd.getN());
 		//System.out.println("getmaxfre " + fd.getMaxFreq());
 		//System.out.println("samplewithmaxfre " + fd.getSampleWithMaxFreq());
-		System.out.println("mostfrequent Samples" + fd.getMostFrequentSamples(5));
+		//System.out.println("mostfrequent Samples" + fd.getMostFrequentSamples(5));
 		//System.out.println("getkeys " + fd.getKeys());
 		//System.out.println("getcount " + fd.getCount("?"));
 		//System.out.println("getcount thanksgiving " + fd.getCount("haus"));		
