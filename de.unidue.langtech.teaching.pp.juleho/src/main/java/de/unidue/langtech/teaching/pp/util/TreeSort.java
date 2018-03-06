@@ -4,13 +4,20 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
+/**
+ * this class sorts data consisting of a pair of elements
+ * the pair of elements has to be made of a key and a value eg. (Int , String)
+ * sorting is based on the key but have to be comparable
+ */
+
 public class TreeSort {
 	static TreeMap<String, Integer>tm;
 	HashMap<String, Integer>hm;
 	
+	//constructor with a map as a parameter
 	public TreeSort(Map<String, Integer> m) {
 		tm = new TreeMap<String,Integer>();
-		//hm = new HashMap<String, Integer>();
+		
 		tm.putAll(m);
 		/**
 		for (String elem : tm.keySet()) {
@@ -31,13 +38,12 @@ public class TreeSort {
 					System.out.println(elem + " - " + tm.get(elem));
 					*/
 	}
-	
+	//set method
 	public static void setArray(Map<String, Integer> m) {
-		tm=(TreeMap<String, Integer>) m;
-		System.out.println("teemapset" + tm);
+		tm=(TreeMap<String, Integer>) m;		
 	}
-	public TreeMap<String,Integer> getTree(){
-		//System.out.println("getTree " + tm);
+	//get method
+	public TreeMap<String,Integer> getTree(){		
 		return tm;
 		
 	}

@@ -22,61 +22,47 @@ public class Run {
 	static Dater date;
 	static LineChart_AWT chart;
 	
-	public Run () {
-		System.out.println("Run");
+	public Run () throws ResourceInitializationException, UIMAException, IOException {
+		
+		bp = new BasicPipeline();
+		
+		
 	}
 
 	public static void main(String[] args) throws ResourceInitializationException, UIMAException, IOException {
 		// TODO Auto-generated method stub
 		//d=new Dingstest();
-		System.out.println("Main Run");
+		
 		bp = new BasicPipeline();
 		
-		runrun();
-		//System.out.println("Run " + SomeOtherExample.getList0());
-		/**
-		System.out.println("Run " + SomeOtherExample.getList0());
-		System.out.println("Run " + SomeOtherExample.getList1());
-		System.out.println("Run " + SomeOtherExample.getList2());
-		System.out.println("Run " + SomeOtherExample.getList3());
-		System.out.println("Run " + SomeOtherExample.getList4());
-		System.out.println("Run " + SomeOtherExample.getName0());
-		System.out.println("Run " + SomeOtherExample.getName1());
-		System.out.println("Run " + SomeOtherExample.getName2());
-		System.out.println("Run " + SomeOtherExample.getName3());		
-		System.out.println("Run " + SomeOtherExample.getName4());
-		*/
-		
-		
-		//al=new ArrayList<String>();
-		//al.addAll(SomeOtherExample.getmethode());
-		//System.out.println("run arrraylist" + al);
-		//date=new Dater(al);
-		
-		
+		runrun();	
 
 	}
+	
+	
+	
 	public static void runrun() {
+		
 		Dater date = new Dater();
-		//System.out.println("Run " + SomeOtherExample.getName0());
+		
 		date.setDater(SomeOtherExample.getList0());
 		date.countDater();
-		//System.out.println("counted result 0 " + date.getList());
+		
 		Map<String,Integer> m0 = new HashMap<String,Integer>();
 		m0=date.getList();
 		TreeSort ts0=new TreeSort(m0);
 		TreeMap<String, Integer> tm0 = new TreeMap<String,Integer>();
 		tm0=ts0.getTree();
 		
-		//System.out.println("run " + tm0);
+		
 		//m0.clear();
 		//m0.putAll(ts0.getTree());
-		//System.out.println("M0 TS " + m0);
+		
 		
 		Dater date1 = new Dater();
 		date1.setDater(SomeOtherExample.getList1());
 		date1.countDater();
-		//System.out.println("counted result 1 " + date1.getList());
+		
 		Map<String,Integer> m1 = new HashMap<String,Integer>();
 		m1=date.getList();
 		TreeSort ts1=new TreeSort(m1);
@@ -88,7 +74,7 @@ public class Run {
 		Dater date2 = new Dater();
 		date2.setDater(SomeOtherExample.getList2());
 		date2.countDater();
-		//System.out.println("counted result 2 " + date2.getList());
+		
 		Map<String,Integer> m2 = new HashMap<String,Integer>();
 		m2=date.getList();
 		TreeSort ts2=new TreeSort(m2);
@@ -100,7 +86,7 @@ public class Run {
 		Dater date3 = new Dater();
 		date3.setDater(SomeOtherExample.getList3());
 		date3.countDater();
-		//System.out.println("counted result 3 " + date3.getList());
+		
 		Map<String,Integer> m3 = new HashMap<String,Integer>();
 		m3=date.getList();
 		TreeSort ts3=new TreeSort(m3);
@@ -108,24 +94,23 @@ public class Run {
 		tm3=ts3.getTree();
 		//m3.clear();
 		//m3.putAll(ts3.getTree());
-		//System.out.println("M3 " + m3);
 		
-		//System.out.println("LIST 4 " + SomeOtherExample.getList4());
+		
+		
 		Dater date4 = new Dater();
 		date4.setDater(SomeOtherExample.getList4());
 		date4.countDater();
-		//System.out.println("counted result 4 " + date4.getList());
+		
 		Map<String,Integer> m4 = new HashMap<String,Integer>();
 		m4=date4.getList();
 		TreeMap<String, Integer>tm4 = new TreeMap<String, Integer>();
 		//tm4.putAll(m4);
-		//System.out.println(m4);
-		//System.out.println("M4 " + m4);
+		
 		TreeSort ts4=new TreeSort(m4);
 		tm4=ts4.getTree();
 		//m4.clear();
 		//m4.putAll(ts4.getTree());
-		//System.out.println("Tm4 clear " + tm4);
+		
 		
 		/**
 		chart = new LineChart_AWT(
@@ -155,6 +140,6 @@ public class Run {
 	      
 		 
 		 
-	}
+	}	
 
 }

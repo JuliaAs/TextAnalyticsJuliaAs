@@ -80,10 +80,6 @@
   		<groupId>junit</groupId>
   		<artifactId>junit</artifactId>
   	</dependency>
-	<dependency>
-  		<groupId>org.apache.uima</groupId>
-  		<artifactId>uimafit-core</artifactId>
-  	</dependency>
   	<dependency>
   		<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
   		<artifactId>
@@ -106,11 +102,16 @@
   	<dependency>
       <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
       <artifactId>de.tudarmstadt.ukp.dkpro.core.io.text-asl</artifactId>
-    </dependency>    
+    </dependency>
+    <dependency>
+      <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+      <artifactId>de.tudarmstadt.ukp.dkpro.core.tokit-asl</artifactId>
+    </dependency>
     <dependency>
       <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
       <artifactId>de.tudarmstadt.ukp.dkpro.core.frequency-asl</artifactId>
-      </dependency>
+      <version>1.8.0</version>
+    </dependency>
     <dependency>
       <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
       <artifactId>de.tudarmstadt.ukp.dkpro.core.io.bincas-asl</artifactId>
@@ -118,7 +119,11 @@
     <dependency>
       <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
       <artifactId>de.tudarmstadt.ukp.dkpro.core.opennlp-asl</artifactId>
-    </dependency>    
+    </dependency> 
+    <dependency>
+      <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+      <artifactId>de.tudarmstadt.ukp.dkpro.core.tokit-asl</artifactId>
+    </dependency>
     <dependency>
   		<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
   		<artifactId>
@@ -130,38 +135,28 @@
   		<artifactId>
   			de.tudarmstadt.ukp.dkpro.core.api.io-asl
   		</artifactId>
-  	</dependency>     
+  	</dependency>
+  	 
+    <dependency>
+      <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+      <artifactId>de.tudarmstadt.ukp.dkpro.core.api.io-asl</artifactId>
+    </dependency>    
     <dependency>
     	<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
     	<artifactId>
     		de.tudarmstadt.ukp.dkpro.core.stopwordremover-asl
     	</artifactId>
-    	</dependency>
+    	<version>1.9.0-SNAPSHOT</version>
+    </dependency>
     <dependency>
       <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
       <artifactId>de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl</artifactId>
     </dependency>
     <dependency>
-    <groupId>org.jfree</groupId>
-    <artifactId>jfreechart</artifactId>
-    <version>1.0.19</version>
-	</dependency>
-	<dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>javax.servlet-api</artifactId>
-      <version>3.1.0</version>
-      <scope>provided</scope>
+    	<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+    	<artifactId>
+    		de.tudarmstadt.ukp.dkpro.core.io.web1t-asl
+    	</artifactId>
     </dependency>
-    <dependency>
-            <groupId>javax.servlet.jsp</groupId>
-            <artifactId>javax.servlet.jsp-api</artifactId>
-            <version>2.3.1</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-	<groupId>commons-logging</groupId>
-	<artifactId>commons-logging</artifactId>
-	<version>1.2</version>
-</dependency>    	
   </dependencies>  
 </project>
