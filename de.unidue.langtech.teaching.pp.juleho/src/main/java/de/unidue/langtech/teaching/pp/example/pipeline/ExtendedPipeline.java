@@ -58,11 +58,11 @@ public class ExtendedPipeline
         				StopWordRemover.PARAM_MODEL_LOCATION, 
         				STOPWORD_FILE),
         				*/
-        		/**
+        		
         		AnalysisEngineFactory.createEngineDescription(RegexTokenFilter.class,
         				RegexTokenFilter.PARAM_REGEX,regex,
         				RegexTokenFilter.PARAM_MUST_MATCH, true),
-        		*/
+        		
         		/**
         		AnalysisEngineFactory.createEngineDescription(SomeOtherExample.class, 
 						SomeOtherExample.PARAM_NUMBER_ITERATIONS_PER_DOCUMENT, 1,

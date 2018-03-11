@@ -57,8 +57,7 @@ public class BasicPipeline
               //AnalysisEngineFactory.createEngineDescription(Printer.class)     
                                                                                      
         );
-        //System.out.println(stringtest);
-       // System.out.println(d.getDings());
+        
     }
     public static void methode() {
     	System.out.println("Methode Basicpipeline");
