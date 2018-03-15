@@ -11,6 +11,7 @@
 - [Evaluation](#evaluation)
    - [Erläuterung](#erläuterung)  
    - [Goldstandard](#goldstandard)
+   - [Ergebnis](#ergebnis)
 - [Fazit](#fazit)
 
 ## Vorstellung des Praxisprojekts
@@ -40,7 +41,7 @@ Damit lassen sich Aussagen über die Schnelligkeit von eventbezogenen Resonanzen
 FEHLT
 
 ## Anleitung der Anwendung 
-Im folgenden finden sie eine Anleitung zur Einrichtung, Konfiguration und Verwendung der Anwendung.
+Im Folgenden finden sie eine Anleitung zur Einrichtung, Konfiguration und Verwendung der Anwendung.
 
 ### Einrichtung
 FEHLT
@@ -70,5 +71,15 @@ FEHLT
 ### Goldstandard
 FEHLT
 
+### Ergebnis 
+FEHLT 
+
 ## Fazit
-Im Folgenden finden sie ein Résumé sowohl über die Evaluation als auch die Gruppenarbeit als solches.
+Im Folgenden finden sie ein Résumé über die Anwendung:
+- [x] User-Interface für die Anwendung
+- [x] Häufigkeitsanalyse für den Twitter-Datensatz
+- [x] Zusammenhang von Häufigkeit der Wörter und der Zeit des Postings
+- [x] Grafische Ausgabe der Häufigkeitsanalyse 
+- [] Sentimentanalyse 
+- [] Ausgabe der Ergebnisse der Sentimentanalyse 
+- [] Zusammenarbeit zwischen dem Interface und den Funktionalitäten 
