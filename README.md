@@ -15,7 +15,9 @@ Die Aufgabe des Praxisprojekt ist es eine **Anwendung zum analysieren von textba
 ### Ablauf der Projektarbeit
 Das Praxisprojekt besteht aus drei Meilensteine:
 _1. Die Vision der Anwendung_
+
 _2. Die Vorstellung der Demoversion der Anwendung_
+
 _3. Die Dokumentation zu der Anwendung_
 
 ### Ziel der Anwendung
