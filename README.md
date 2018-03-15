@@ -38,7 +38,9 @@ Damit lassen sich Aussagen über die Schnelligkeit von eventbezogenen Resonanzen
 Im folgenden finden sie eine Anleitung zur Einrichtung, Konfiguration und Verwendung der Anwendung.
 
 ### Einrichtung
+FEHLT
 
 ### Konfiguration
+FEHLT
 
 ### Verwendung 
