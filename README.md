@@ -80,6 +80,6 @@ Im Folgenden finden sie ein Résumé über die Anwendung:
 - [x] Häufigkeitsanalyse für den Twitter-Datensatz
 - [x] Zusammenhang von Häufigkeit der Wörter und der Zeit des Postings
 - [x] Grafische Ausgabe der Häufigkeitsanalyse 
-- [] Sentimentanalyse 
-- [] Ausgabe der Ergebnisse der Sentimentanalyse 
-- [] Zusammenarbeit zwischen dem Interface und den Funktionalitäten 
+- [ ] Sentimentanalyse 
+- [ ] Ausgabe der Ergebnisse der Sentimentanalyse 
+- [ ] Zusammenarbeit zwischen dem Interface und den Funktionalitäten 
