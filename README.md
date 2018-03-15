@@ -14,9 +14,9 @@ Die Aufgabe des Praxisprojekt ist es eine **Anwendung zum analysieren von textba
 
 ### 1.1. Ablauf der Projektarbeit
 Das Praxisprojekt besteht aus drei Kernelemente:
-*1. Die Vision der Anwendung
-2. Die Vorstellung der Demoversion der Anwendung
-3. Die Dokumentation zu der Anwendung
+_1. Die Vision der Anwendung_
+_2. Die Vorstellung der Demoversion der Anwendung_
+_3. Die Dokumentation zu der Anwendung_
 
 ### 1.2. Ziel der Anwendung
 Die Gruppe hat sich für die Entwicklung einer Anwendung im Bereich **Social Media Analytics** entschieden. 
