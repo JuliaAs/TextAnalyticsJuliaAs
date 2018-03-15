@@ -1,10 +1,10 @@
 # Inhaltsangabe 
 1. [Vorstellung des Praxisprojekts](#vorstellung-des-Praxisprojekts) 
-   - Ablauf der Projektarbeit
-2. Anleitung der Anwendung
-3. Output
-4. Evaluation des Werkzeugs
-   - Erklärung der Evaluation  
+   - [Ablauf der Projektarbeit](#ablauf-der-projektarbeit)
+2. [Anleitung der Anwendung](#anleitung-der-anwendung)
+3. [Output](#output)
+4. [Evaluation des Werkzeugs](#evaluation-des-werkzeugs)
+   - [Erklärung der Evaluation](#erklärung-der-evaluation) 
 5. Fazit der Funktionalität der Anwendung
 
 ## Vorstellung des Praxisprojekts
