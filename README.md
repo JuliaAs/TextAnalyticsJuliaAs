@@ -71,4 +71,4 @@ FEHLT
 FEHLT
 
 ## Fazit
-FEHLT
+Im Folgenden finden sie ein Résumé sowohl über die Evaluation als auch die Gruppenarbeit als solches.
