@@ -10,7 +10,8 @@
 - [Output](#output)
 - [Evaluation](#evaluation)
    - [Erklärung der Evaluation](#erklärung-der-evaluation)   
-- [Fazit](#fazit-der-funktionalität-der-anwendung)
+   - [Goldstandard](#goldstandard)
+- [Fazit](#fazit)
 
 ## Vorstellung des Praxisprojekts
 Die Aufgabe des Praxisprojekt ist es eine **Anwendung zum analysieren von textbasierter Sprache** zu implentieren. Dafür teilten sich die Teilnehmer des Praxisprojekts in dreier Gruppen auf und überlegten sich eine Problemstellung, die sie mithilfe ihrere Anwendung lösen wollten.
