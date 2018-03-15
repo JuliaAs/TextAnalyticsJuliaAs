@@ -1,6 +1,6 @@
 # Inhaltsangabe 
-- [Vorstellung des Praxisprojekts](#vorstellung-des-Praxisprojekts) 
-   - [Ablauf der Arbeit](#ablauf-der-arbeit)  
+- [Vorstellung des Praxisprojekts](#vorstellung-des-Praxisprojekts)
+   - [Ablauf der Projektarbeitarbeit](#ablauf-der-projektarbeit)
 - [Anleitung der Anwendung](#anleitung-der-anwendung)
 - [Output](#output)
 - [Evaluation](#evaluation)
@@ -8,10 +8,15 @@
 - [Fazit](#fazit-der-funktionalität-der-anwendung)
 
 ## Vorstellung des Praxisprojekts
-Die Aufgabe des Praxisprojekt ist es eine Textanalyseanwendung zur Lösung eines derzeitigen Problemfalls zu implementieren. Die Teilnehmer am Praxisprojekt haben sich in dreier Gruppen zusammengefunden und an der Aufgabe gearbeitet.
+Die Aufgabe des Praxisprojekt ist es eine **Anwendung zum analysieren von textbasierter Sprache** zu implentieren. Dafür teilten sich die Teilnehmer des Praxisprojekts in dreier Gruppen auf und überlegten sich eine Problemstellung, die sie mithilfe ihrere Anwendung lösen wollten.
 
 ### Ablauf der Projektarbeit
-Nach langem Überlegen hat sich die Gruppe für die Entwicklung einer Anwendung im Bereich **Social Media Analytics** entschieden. 
+Das Praxisprojekt besteht aus drei Kernelemente:
+1. Die Vision der Anwendung
+2. Die Vorstellung der Demoversion der Anwendung
+3. Die Dokumentation zu der Anwendung
+
+Nach langem Überlegen hat sich die Gruppe für die Entwicklung einer Anwendung im Bereich **Social Media Analytics** entschieden. Zu Beginn war eine Anwendung zur Erkennung von potenziellen Gefahren in Social Media-Beiträgen geplant, die Textinhalte auf bestimmte Schlagwörter untersucht hätte und zur Gefahrenprävention gedacht gewesen ist. Nach der Präsentation dieser Idee 
 
 
 
