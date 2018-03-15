@@ -33,6 +33,7 @@ Kernfunktionen der Anwendung mit **_Beispiel aus der Kriesenkommunikation_**:
 Damit lassen sich Aussagen über die Schnelligkeit von eventbezogenen Resonanzen treffen.
 
 ### Vorgehensweise
+FEHLT
 
 ## Anleitung der Anwendung 
 Im folgenden finden sie eine Anleitung zur Einrichtung, Konfiguration und Verwendung der Anwendung.
@@ -43,4 +44,7 @@ FEHLT
 ### Konfiguration
 FEHLT
 
-### Verwendung 
+### Verwendung
+FEHLT
+
+### Output 
