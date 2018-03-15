@@ -49,7 +49,7 @@ FEHLT
 FEHLT
 
 ### Verwendung
-**_Der zu analysierten Datensatz ist in dieser Version vorgegeben. Eine Option zum Hochladen externer Datensätze ist nicht gegeben, jedoch eine mögliche ergänzende Funktionalität._**
+**_Der zu analysierende Datensatz ist in dieser Version vorgegeben. Eine Option zum Hochladen externer Datensätze ist nicht gegeben, jedoch eine mögliche ergänzende Funktionalität._**
 
 Der Nutzer besucht die Seite der Anwendung und sieht das User-Interface mit Eingabefeldern. Dort kann er einen Titel, sowie Ort des Geschehens eintragen. Beide Angaben haben keinen Einfluss auf die Textanalyse der Daten. Sie werden lediglich im Output als standardisierter Satz vor den Ergebnissen stehen und dient somit der Usability.
 In zwei weiteren Feldern gibt der Nutzer eine Anfangs-/ und eine Endzeit an. Diese definieren den Zeitraum der Twitter-Beiträge, die von der Anwendung analysiert werden sollen.
