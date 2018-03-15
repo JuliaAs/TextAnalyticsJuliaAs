@@ -24,7 +24,7 @@ Das Programm testet dafür Datensätze von Twitter-beiträgen, um die von den Nu
 
 Kernfunktionen der Anwendung mit **_Beispiel aus der Kriesenkommunikation_**:
 1.	Erkennung der häufigsten Wörter in einem Twitter Datensatz (Relevanz der Thematik)
-   **_Nach einem Erdbeben sind die häufigsten Wörter, die mit erbebenrelevante Thematik_**
+**_Nach einem Erdbeben sind die häufigsten Wörter, die mit erbebenrelevante Thematik_**
 2.	Zusammenhang mit der Zeit des Postings (Kommunikationsverlauf)
    
 3.	Zuteilung der Tonalität den häufigsten Wörtern (positiv, neutral, negativ)
