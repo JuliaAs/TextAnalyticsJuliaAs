@@ -4,9 +4,9 @@
    - [Ziel der Anwendung](#ziel-der-anwendung)
    - [Vorgehensweise](#vorgehensweise)
 - [Anleitung der Anwendung](#anleitung-der-anwendung)
-   - [EInrichtung]
-   - [Konfiguration]
-   - [Verwendung]
+   - [Einrichtung](#einrichtung)
+   - [Konfiguration](#konfiguration)
+   - [Verwendung](#verwendung)
 - [Output](#output)
 - [Evaluation](#evaluation)
    - [Erklärung der Evaluation](#erklärung-der-evaluation)   
