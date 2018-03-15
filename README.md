@@ -1,11 +1,11 @@
 # Inhaltsangabe 
-1. [Vorstellung des Praxisprojekts](#vorstellung-des-Praxisprojekts) 
+- [Vorstellung des Praxisprojekts](#vorstellung-des-Praxisprojekts) 
    - [Ablauf der Projektarbeit](#ablauf-der-projektarbeit)
-2. [Anleitung der Anwendung](#anleitung-der-anwendung)
-3. [Output](#output)
-4. [Evaluation des Werkzeugs](#evaluation-des-werkzeugs)
+- [Anleitung der Anwendung](#anleitung-der-anwendung)
+- [Output](#output)
+- [Evaluation des Werkzeugs](#evaluation-des-werkzeugs)
    - [Erklärung der Evaluation](#erklärung-der-evaluation) 
-5. Fazit der Funktionalität der Anwendung
+- [Fazit der Funktionalität der Anwendung](#fazit-der-funktionalität-der-anwendung)
 
 ## Vorstellung des Praxisprojekts
 Die Aufgabe des Praxisprojekt ist es eine Textanalyseanwendung zur Lösung eines derzeitigen Problemfalls zu implementieren. Die Teilnehmer am Praxisprojekt haben sich in dreier Gruppen zusammengefunden und an der Aufgabe gearbeitet.
