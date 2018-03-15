@@ -82,4 +82,12 @@ Im Folgenden finden sie ein Résumé über die Anwendung:
 - [x] Grafische Ausgabe der Häufigkeitsanalyse 
 - [ ] Sentimentanalyse 
 - [ ] Ausgabe der Ergebnisse der Sentimentanalyse 
-- [ ] Zusammenarbeit zwischen dem Interface und den Funktionalitäten 
+- [ ] Kommunikation zwischen dem Interface und den Funktionalitäten 
+
+Die Anwendung läuft nicht fehlerfrei. Es gibt Kommunikationsprobleme zwischen der HTML-Seite und dem Java Code. Die HTML-Seite speichert die eingebenen Daten nicht korrekt ab und übergibt diese  nicht an die Outputseite. Außerdem gibt es auf dem User-Interface ist kein Eingabefeld für die Parameter der Sentimentanalyse und somit kann diese Daten nur auf der Funktionsebene ausgeben. Generell steckt die Sentinemtanalyse noch in einem frühen Stadium der Entwicklung. Dadurch ist diese nur eingeschränkt nutzbar. An dieser Stelle sei aber zu erwähnen, dass die Sentinemtanalyse aufgrund eines Missverständnis' erst zu einem späteren Zeitpunkt als zusätzliche Funktionalität dazu gekommen ist.
+Nichtsdestotrotz sind die elementaren Funktionalitäten der Anwendung vorhanden und funktionsfähig. Es gibt ein User-Interface, die Häufigkeitsanalyse gibt die häufigsten Wörter im Zusammenhang des Zeitraums aus und diese werden vom Programm grafisch ausgegeben. Die Kritik der Abschlusspräsentation wurden umgesetzt und die Anwendung stellt mit ein paar Problemen das dar, was die Gruppe sich zu Beginn des Praxisprojekts vorgestellt hatte. 
+
+
+
+
+
