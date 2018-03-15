@@ -9,7 +9,7 @@
    - [Verwendung](#verwendung)
 - [Output](#output)
 - [Evaluation](#evaluation)
-   - [Erklärung der Evaluation](#erklärung-der-evaluation)   
+   - [Erläuterung](#erläuterung)  
    - [Goldstandard](#goldstandard)
 - [Fazit](#fazit)
 
@@ -58,4 +58,17 @@ Durch das Klicken auf den "Safe"-Button speichert der Nutzer die Eingaben und st
 Platz für SA Erklärung?
  
 
-## Output 
+## Output
+FEHLT 
+
+## Evaluation 
+FEHLT
+
+### Erläuterung
+FEHLT
+
+### Goldstandard
+FEHLT
+
+## Fazit
+FEHLT
