@@ -24,14 +24,12 @@ Das Programm testet dafür Datensätze von Twitter-beiträgen, um die von den Nu
 
 Kernfunktionen der Anwendung mit **_Beispiel aus der Kriesenkommunikation_**:
 1.	Erkennung der häufigsten Wörter in einem Twitter Datensatz (Relevanz der Thematik)
-      - **_Nach einem Erdbeben sind die häufigsten Wörter, die mit erbebenrelevante Thematik_**
+      - _Nach einem Erdbeben sind die häufigsten Wörter, die mit erbebenrelevante Thematik => Das Erdbeben ist relevant_
 2.	Zusammenhang mit der Zeit des Postings (Kommunikationsverlauf)
-   
+      - _Während und kurz nach dem Beben sind erdbebenthematisch Wörter am häufigsten => zeitliche Einordnung des Kommunikationsverlaufs
 3.	Zuteilung der Tonalität den häufigsten Wörtern (positiv, neutral, negativ)
+      - _Sind die Beiträge eher negativ (Wut, Trauer), positiv (Erleichterung) oder neutral (Berichterstattung) => Emotionsverlagerung  
 
-**Beispiel aus der Kriesenkommuikation: 
-
-
-Als zusätzliche Funktion ist die Tonalität der Wörter zu sehen, die auch mit dem zeitlichen Zusammenhang als Ergebnis ausgegeben werden sollte
+Damit lassen sich Aussagen über die Schnelligkeit von eventbezogenen Resonanzen treffen.
 
 ### Vorgehensweise
