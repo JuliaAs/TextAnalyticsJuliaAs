@@ -31,9 +31,9 @@ Kernfunktionen der Anwendung mit _Beispiel aus der Kriesenkommunikation_:
 1.	Erkennung der häufigsten Wörter in einem Twitter Datensatz (Relevanz der Thematik)
       - _Nach einem Erdbeben sind die häufigsten Wörter, die mit erbebenrelevante Thematik => Das Erdbeben ist relevant_
 2.	Zusammenhang mit der Zeit des Postings (Kommunikationsverlauf)
-      - _Während und kurz nach dem Beben sind erdbebenthematisch Wörter am häufigsten => zeitliche Einordnung des Kommunikationsverlaufs
+      - _Während und kurz nach dem Beben sind erdbebenthematisch Wörter am häufigsten => zeitliche Einordnung des Kommunikationsverlaufs_
 3.	Zuteilung der Tonalität den häufigsten Wörtern (positiv, neutral, negativ)
-      - _Sind die Beiträge eher negativ (Wut, Trauer), positiv (Erleichterung) oder neutral (Berichterstattung) => Emotionsverlagerung  
+      - _Sind die Beiträge eher negativ (Wut, Trauer), positiv (Erleichterung) oder neutral (Berichterstattung) => Emotionsverlagerung_  
 
 Damit lassen sich Aussagen über die Schnelligkeit von eventbezogenen Resonanzen treffen.
 
