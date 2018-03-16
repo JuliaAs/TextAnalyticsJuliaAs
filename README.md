@@ -16,7 +16,7 @@
 - [Fazit](#fazit)
 
 ## Vorstellung des Praxisprojekts
-Die Aufgabe des Praxisprojekts ist es eine **Anwendung zur Analysieren von textbasierter Sprache** zu implementieren. Dafür teilten sich die Teilnehmer des Praxisprojekts in dreier Gruppen auf und überlegten sich eine Problemstellung, die sie mithilfe ihrer Anwendung lösen wollten.
+Die Aufgabe des Praxisprojekts ist es eine **Anwendung zur Analyse von textbasierter Sprache** zu implementieren. Dafür teilten sich die Teilnehmer des Praxisprojekts in dreier Gruppen auf und überlegten sich eine Problemstellung, die sie mithilfe ihrer Anwendung lösen wollten.
 
 ### Ablauf der Projektarbeit
 Das Praxisprojekt besteht aus drei Meilensteine:
