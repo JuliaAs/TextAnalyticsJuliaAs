@@ -7,7 +7,9 @@ Nachdem die Gruppe viel Zeit in die Recherche investiert hatte, hielt sie Rücks
 Die in der Abschlusspräsentation genannten Kritikpunkte hat man bis zur Abgabe versucht umzusetzen. Dies ist mit Ausnahmen auch passiert. Für weitere Funktionalitäten innerhalb der Anwendung war die Zeit zwischen der Abschlusspräsentation und Abgabe der Anwendung neben der Prüfungsphase zu knapp. Parallel zur Implementierung (VERLINKUNG ZUR IMPLEMENTIERUNG) wurde an der [Dokumentation des Praxisprojektes](README.md) gearbeitet.
 
 
-## Vorgehensweise
+## Gruppeninterne Vorgehensweise
+
+### Projektmanagment 
 Von Anfang an haben wir versucht bei unserem Projektmanagement an den Werte der agile Softwareentwiclung zu stürtzen:
 1.	Individuen und Interaktionen vor Tools
 2.	Funktionierende Programme vor ausführliche Spezifikation
@@ -26,8 +28,7 @@ Unsere Arbeit könnte durch oben vorgestellten Bild 2. veranschaulich dargestell
 
 Nach dem wir die Idee des Projektes festgelegt haben, wurde die Anforderungsanalyse als weitere Schritt ausgewählt und mittels gemeinsames Brainstormings und mittels Experten-Gespräch durchgef ührt, um das Ziel des Projektes zu definieren.
 
-Nach der Auswertung haben sich folgende Resultate der Anforderungsanalyse ergeben: 																							
-
+### Auswertung der Anforderungsanalyse  																							
 Business Case: Bei der Analyse der Kommunikation in sozialen Netzwerken in Krisensituation helfen eine Aussage über das Posting-Verhalten von Nutzer sozialer Netzwerke über ein Krisenthema.
 
 Ziel: Eine Anwendung zu programmieren, die eine Analyse über den Posting-Verhalten während einer Krisensituation in sozialen Netzwerken liefert. Die Anwendung untersucht Beiträge in sozialen Netzwerken auf die am häufigsten kommunizierten Wörter in Abhängigkeit des zeitlichen Ablaufs der Krisensituation.
@@ -36,6 +37,8 @@ Usability-Zielen
 1.	Erfolgskriterien:
 Der Nutzer kann nach einer halbstündige Programmausführung mindestens eine Schlussfolgerung aus dem von dem Programm bearbeiteten Datensatz ziehen.
 2.	Valide Nutzeranforderungen. ATIC Rahmen
+
+
 
 Ziel: Kommunikation in einer Krisensituation zu untersuchen.
 
