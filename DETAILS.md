@@ -45,4 +45,10 @@ Rollen | Wissenschaftliche Mitarbeiter, HiWis, SHKs.
 Information | Twitter-Datensatz (Von Tobias Horsmann zur Verfügung gestellt)
 Kontext | Eine am PC zu verwendende Anwendung 
 
-Für die geplante Anwendung wurde außerdem das Mockup Modell in Form vom Bild und HTML Seite entwickelt, um die Funktionen der App zu verdeutlichen.
+Für die erste Version der Anwendung wurde außerdem ein Mockup Modell erstellt, um die Funktionen der App zu verdeutlichen. Natürlich weicht das Mock-Up von der fertigen Anwendung ab:
+![Startseite](Startseite.JPG)
+
+![Output-Seite](Output-Seite.JPG) 
+
+
+
