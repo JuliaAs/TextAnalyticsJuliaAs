@@ -46,9 +46,10 @@ Information | Twitter-Datensatz (Von Tobias Horsmann zur Verfügung gestellt)
 Kontext | Eine am PC zu verwendende Anwendung 
 
 Für die erste Version der Anwendung wurde außerdem ein Mockup Modell erstellt, um die Funktionen der App zu verdeutlichen. Natürlich weicht das Mock-Up von der fertigen Anwendung ab:
-![Startseite](Startseite.JPG)
 
-![Output-Seite](Output-Seite.JPG) 
+Startseite: ![Startseite](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Praxisprojekt%20-%20Textanalyse%20Mock%20Up%20(erste%20Version%20der%20Anwendung)/Startseite.JPG) 
+
+Output-Seite: ![Output-Seite]( https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Praxisprojekt%20-%20Textanalyse%20Mock%20Up%20(erste%20Version%20der%20Anwendung)/Output-Seite.JPG)
 
 
 
