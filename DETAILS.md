@@ -1,5 +1,12 @@
 # Details
 ## Ablauf der Gruppenarbeit
+Zum Beginn der Gruppenarbeit hat die Gruppe sich eine Thematik für die zu implementierende Anwendung überlegt. Nach langem Überlegen konnte sich die Gruppe auf das Thema **Früherkennung potenzieller Gefahren in Social Media-Beiträgen einigen**. Diese Idee wurde nach der Präsentation und dem kritischen Feedback von Herrn Tobias Horsmann wieder verworfen. Die Grundlage der Social Media Analytics blieb jedoch bestehen. So strukturierte die Gruppe lediglich das Ziel der Analyse um:
+
+Nachdem die Gruppe viel Zeit in die Recherche investiert hatte, hielt sie Rücksprache mit Prof. Dr.-Ing. Torsten Zech. Im Gespräch mit Ihm definierte sich eine Häufigkeitsanalyse der Wörter in Beiträgen als gute Anwendungsfunktionalität. Tobias Horsmann schickte der Gruppe einen Twitter-Datensatz, an welchem die Analyse getestet werden konnte. An der Häufigkeitsanalyse und dem User-Interface wurde bis zur Abschlusspräsentation gearbeitet.
+
+Die in der Abschlusspräsentation genannten Kritikpunkte hat man bis zur Abgabe versucht umzusetzen. Dies ist mit Ausnahmen auch passiert. Für weitere Funktionalitäten innerhalb der Anwendung war die Zeit zwischen der Abschlusspräsentation und Abgabe der Anwendung neben der Prüfungsphase zu knapp. Parallel zur Implementierung wurde an der Dokumentation des Praxisprojektes gearbeitet.
+
+
 ## Vorgehensweise
 Von Anfang an haben wir versucht bei unserem Projektmanagement an den Werte der agile Softwareentwiclung zu stürtzen:
 1.	Individuen und Interaktionen vor Tools
