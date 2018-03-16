@@ -4,6 +4,7 @@
 - [Gruppeninterne Vorgehensweise](#gruppeninterne-vorgehensweise)
   - [Projektmanangment](#projektmanagment) 
   - [Anforderungsanalyse](#anforderungsanalyse) 
+  - [Mock-Ups](#mock-ups)
   
 ## Ablauf der Gruppenarbeit
 Zum Beginn der Gruppenarbeit hat die Gruppe sich eine Thematik für die zu implementierende Anwendung überlegt. Nach langem Überlegen konnte sich die Gruppe auf das Thema **Früherkennung potenzieller Gefahren in Social Media-Beiträgen** einigen. Diese Idee wurde nach der Präsentation und dem kritischen Feedback von Herrn Tobias Horsmann wieder verworfen. Die Grundlage der Social Media Analytics blieb jedoch bestehen. So strukturierte die Gruppe lediglich das Ziel der Analyse um.
@@ -45,7 +46,9 @@ Rollen | Wissenschaftliche Mitarbeiter, HiWis, SHKs.
 Information | Twitter-Datensatz (Von Tobias Horsmann zur Verfügung gestellt)
 Kontext | Eine am PC zu verwendende Anwendung 
 
-Für die erste Version der Anwendung wurde außerdem ein Mockup Modell erstellt, um die Funktionen der App zu verdeutlichen. Natürlich weicht das Mock-Up von der fertigen Anwendung ab:
+### Mock-Ups
+
+Für die erste Version der Anwendung wurde außerdem ein Mockup Modell erstellt, um die Funktionen der App zu verdeutlichen. Natürlich weichen Mock-Ups von der fertigen Anwendung ab:
 
 Startseite: ![Startseite](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Praxisprojekt%20-%20Textanalyse%20Mock%20Up%20(erste%20Version%20der%20Anwendung)/Startseite.JPG) 
 
