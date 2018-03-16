@@ -42,30 +42,17 @@ Business Case: Bei der Analyse der Kommunikation in sozialen Netzwerken in Krise
 
 Ziel: Eine Anwendung zu programmieren, die eine Analyse über den Posting-Verhalten während einer Krisensituation in sozialen Netzwerken liefert. Die Anwendung untersucht Beiträge in sozialen Netzwerken auf die am häufigsten kommunizierten Wörter in Abhängigkeit des zeitlichen Ablaufs der Krisensituation.
 
-Usability-Zielen
-1.	Erfolgskriterien:
-Der Nutzer kann nach einer halbstündige Programmausführung mindestens eine Schlussfolgerung aus dem von dem Programm bearbeiteten Datensatz ziehen.
-2.	Valide Nutzeranforderungen. ATIC Rahmen
-
-
-
-Ziel: Kommunikation in einer Krisensituation zu untersuchen.
-
-Aufgabe: Eine zeitliche Abhängigkeit zwischen einem Ereignis und relevantem Thema festzustellen.
-
-Aktivität: Datenbank hochladen und einen Grafik anzeigen lassen.
-
-Operationen: Datenbank hochladen, Grafik erstellen, die Tendenzen anzeigen lassen.
-
-Sozialer Kontext: Arbeit an der Universität oder allgemeine Datenanalyse.
-
-Rollen: Wissenschaftliche Mitarbeiter, HiWis, SHKs.
-
-Gebraucht: Datenbanken von sozialen Netzwerken, wie Twitter Posting, von Behörden und normalen Nutzer mit der Zeitangabe und Textinhalt.
-
-Resultat: Zuweisung von Textinhalten (Top 5 Wörter) zur zeitlichen Angaben in Form von Diagramm (y-Achse Häufigkeit der Wörter, x-Achse Zeit). Darstellung der Tonalität der relevantesten Wörter. 						 Bild 3.
-
-Kontext: Im Büro am PC an der Universität oder in der Bibliothek. Die Anwendung soll an allen Browser funktionsfähig sein.
+Valide Nutzeranforderungen | Beschreibung
+-------------------------- | ------------
+Ziel: | Kommunikation in einer Krisensituation zu untersuchen.
+Aufgabe: | Eine zeitliche Abhängigkeit zwischen einem Ereignis und relevantem Thema festzustellen.
+Aktivität: | Datenbank hochladen und einen Grafik anzeigen lassen.
+Operationen: | Datenbank hochladen, Grafik erstellen, die Tendenzen anzeigen lassen.
+Sozialer Kontext: | Arbeit an der Universität oder allgemeine Datenanalyse.
+Rollen: | Wissenschaftliche Mitarbeiter, HiWis, SHKs.
+Gebraucht | Datenbanken von sozialen Netzwerken, wie Twitter Posting, von Behörden und normalen Nutzer mit der Zeitangabe und Textinhalt.
+Resultat: | Zuweisung von Textinhalten (Top 5 Wörter) zur zeitlichen Angaben in Form von Diagramm (y-Achse Häufigkeit der Wörter, x-Achse Zeit). Darstellung der Tonalität der relevantesten Wörter. 						 Bild 3.
+Kontext: | Im Büro am PC an der Universität oder in der Bibliothek. Die Anwendung soll an allen Browser funktionsfähig sein.
 
 Die Dauer der Auftrag: ca 10 Minuten.
 
