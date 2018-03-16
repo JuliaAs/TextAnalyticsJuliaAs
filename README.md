@@ -4,7 +4,6 @@
 - [Vorstellung des Praxisprojekts](#vorstellung-des-Praxisprojekts)
    - [Ablauf der Projektarbeit](#ablauf-der-projektarbeit)
    - [Ziel der Anwendung](#ziel-der-anwendung)
-   - [Vorgehensweise](#vorgehensweise)
 - [Anleitung der Anwendung](#anleitung-der-anwendung)
    - [Einrichtung](#einrichtung)
    - [Konfiguration](#konfiguration)
@@ -40,9 +39,6 @@ Kernfunktionen der Anwendung mit _Beispiel aus der Krisenkommunikation_:
       - _Sind die Beiträge eher negativ (Wut, Trauer), positiv (Erleichterung) oder neutral (Berichterstattung) => Emotionsverlagerung_  
 
 Damit lassen sich Aussagen über die Schnelligkeit von eventbezogenen Resonanzen treffen.
-
-### Vorgehensweise
-FEHLT
 
 ## Anleitung der Anwendung 
 Im Folgenden finden Sie eine Anleitung zur Einrichtung, Konfiguration und Verwendung der Anwendung.
