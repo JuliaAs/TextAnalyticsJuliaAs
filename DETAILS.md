@@ -45,7 +45,7 @@ Ziel: Eine Anwendung zu programmieren, die eine Analyse über den Posting-Verhal
 Nutzeranforderungen | Beschreibung
 ------------------- | ------------
 Ziel | Kommunikation in einer Krisensituation zu untersuchen.
-Test
+       Test
 Aufgabe | Eine zeitliche Abhängigkeit zwischen einem Ereignis und relevantem Thema festzustellen.
 Aktivität | Datenbank hochladen und einen Grafik anzeigen lassen.
 Operationen | Datenbank hochladen, Grafik erstellen, die Tendenzen anzeigen lassen.
