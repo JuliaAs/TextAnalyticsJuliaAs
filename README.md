@@ -1,4 +1,4 @@
-# Dokumentation des Praxisprojektes
+# Dokumentation des Praxisprojekts
 
 ## Inhaltsangabe 
 - [Vorstellung des Praxisprojekts](#vorstellung-des-Praxisprojekts)
