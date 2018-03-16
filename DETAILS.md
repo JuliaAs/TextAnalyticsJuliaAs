@@ -1,4 +1,10 @@
 # Details
+## Inhaltsangabe 
+- [Ablauf der Gruppenarbeit](#ablauf-der-gruppenarbeit) 
+- [Gruppeninterne Vorgehensweise](#gruppeninterne-vorgehensweise)
+  - [Projektmanangment](#projektmanagment) 
+  - [Auswertung der Anforderungsanalyse](#auswertung-der-anforderungsanalyse) 
+  
 ## Ablauf der Gruppenarbeit
 Zum Beginn der Gruppenarbeit hat die Gruppe sich eine Thematik für die zu implementierende Anwendung überlegt. Nach langem Überlegen konnte sich die Gruppe auf das Thema **Früherkennung potenzieller Gefahren in Social Media-Beiträgen** einigen. Diese Idee wurde nach der Präsentation und dem kritischen Feedback von Herrn Tobias Horsmann wieder verworfen. Die Grundlage der Social Media Analytics blieb jedoch bestehen. So strukturierte die Gruppe lediglich das Ziel der Analyse um.
 
