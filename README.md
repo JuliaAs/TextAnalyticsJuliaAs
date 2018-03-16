@@ -44,10 +44,10 @@ Damit lassen sich Aussagen über den zeitlichen Verlauf von Online-Kommunikation
 Im Folgenden finden Sie eine Anleitung zur Einrichtung, Konfiguration und Verwendung der Anwendung.
 
 ### Einrichtung
-FEHLT
+FEHLT (to do)
 
 ### Konfiguration
-FEHLT
+FEHLT (to do)
 
 ### Verwendung
 **_Der zu analysierende Datensatz ist in dieser Version vorgegeben. Eine Option zum Hochladen externer Datensätze ist nicht gegeben, jedoch eine mögliche ergänzende Funktionalität._**
@@ -56,23 +56,23 @@ Der Nutzer besucht die Seite der Anwendung und sieht das User-Interface mit Eing
 In zwei weiteren Feldern gibt der Nutzer eine Anfangs-/ und eine Endzeit an. Diese definieren den Zeitraum der Twitter-Beiträge, die von der Anwendung analysiert werden sollen.
 Durch das Klicken auf den "Safe"-Button speichert der Nutzer die Eingaben und startet somit die Analyse des Datensatzes.
 
-Platz für SA Erklärung?
+Platz für SA Erklärung? (to do?)
  
 
 ## Output
-FEHLT 
+FEHLT (to do) - Bild vom aktuellen Output 
 
 ## Evaluation 
-FEHLT
+FEHLT (to do)
 
 ### Erläuterung
-FEHLT
+FEHLT (to do)
 
 ### Goldstandard
-FEHLT
+FEHLT (to do)
 
 ### Ergebnis 
-FEHLT 
+FEHLT (to do)
 
 ## Fazit
 Im Folgenden finden Sie ein Résumé über die Anwendung:
