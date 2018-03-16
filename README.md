@@ -60,7 +60,7 @@ Platz für SA Erklärung? (to do?)
  
 
 ## Output
-FEHLT (to do) - Bild vom aktuellen Output 
+FEHLT (to do) - [Bild vom aktuellen Output](chart1.png)
 
 ## Evaluation 
 FEHLT (to do)
