@@ -61,6 +61,7 @@ Platz für SA Erklärung? (to do?)
 
 ## Output
 FEHLT (to do) - [Bild vom aktuellen Output](chart1.png)
+
 ![Test](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/chart1.png) 
 
 ## Evaluation 
