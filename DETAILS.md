@@ -48,7 +48,7 @@ Kontext | Eine am PC zu verwendende Anwendung
 
 ### Mock-Ups
 
-Für die erste Version der Anwendung wurde außerdem ein Mockup Modell erstellt, um die Funktionen der App zu verdeutlichen. Natürlich weichen Mock-Ups von der fertigen Anwendung ab:
+Für die erste Version der Anwendung wurde außerdem ein Mockup Modell erstellt, um die Funktionen der Anwendung zu verdeutlichen. Natürlich weichen Mock-Ups von der fertigen Anwendung ab:
 
 Startseite: ![Startseite](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Praxisprojekt%20-%20Textanalyse%20Mock%20Up%20(erste%20Version%20der%20Anwendung)/Startseite.JPG) 
 
