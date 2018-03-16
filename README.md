@@ -39,6 +39,7 @@ Kernfunktionen der Anwendung mit _Beispiel aus der Krisenkommunikation_:
       - _Sind die Beiträge eher negativ (Wut, Trauer), positiv (Erleichterung) oder neutral (Berichterstattung) => Emotionsverlagerung_  
 
 Damit lassen sich Aussagen über den zeitlichen Verlauf von Online-Kommunikation über die Relevanz eines Themas treffen, aufgrund der Häufigkeit der Wörter in Social Media-Beiträgen
+
 ## Anleitung der Anwendung 
 Im Folgenden finden Sie eine Anleitung zur Einrichtung, Konfiguration und Verwendung der Anwendung.
 
