@@ -20,9 +20,9 @@ Die Aufgabe des Praxisprojekts ist es eine **Anwendung zur Analyse von textbasie
 
 ### Ablauf der Projektarbeit
 Das Praxisprojekt besteht aus drei Meilensteine:
-1. _Die Vision der Anwendung_
-2. _Die Vorstellung der Demoversion der Anwendung_
-3. _Die Dokumentation zu der Anwendung_
+1. Die Vision der Anwendung
+2. Die Vorstellung der Demoversion der Anwendung
+3. Die Dokumentation zu der Anwendung
 
 Eine detailierte Ausführung des Ablaufs finden Sie hier, [finden Sie hier](DETAILS.md).
 
