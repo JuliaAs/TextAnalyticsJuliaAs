@@ -53,7 +53,7 @@ FEHLT (to do)
 **_Der zu analysierende Datensatz ist in dieser Version vorgegeben. Eine Option zum Hochladen externer Datensätze ist nicht gegeben, jedoch eine mögliche ergänzende Funktionalität._**
 
 Der Nutzer besucht die Seite der Anwendung und sieht das User-Interface mit Eingabefeldern. Dort kann er einen Titel, sowie Ort des Geschehens eintragen. Beide Angaben haben keinen Einfluss auf die Textanalyse der Daten. Sie werden lediglich im Output als standardisierter Satz vor den Ergebnissen stehen und dient somit der Usability.
-In zwei weiteren Feldern gibt der Nutzer eine Anfangs-/ und eine Endzeit an. Diese definieren den Zeitraum der Twitter-Beiträge, die von der Anwendung analysiert werden sollen.
+In einem weiteren Feld gibt der Nutzer eine Anfangs-/ und eine Endzeit an. Diese definieren den Zeitraum der Twitter-Beiträge, die von der Anwendung analysiert werden sollen.
 Durch das Klicken auf den "Safe"-Button speichert der Nutzer die Eingaben und startet somit die Analyse des Datensatzes.
 
 Platz für SA Erklärung? (to do?)
@@ -86,9 +86,4 @@ Im Folgenden finden Sie ein Résumé über die Anwendung:
 
 Die Anwendung läuft nicht fehlerfrei. Es gibt Kommunikationsprobleme zwischen der HTML-Seite und dem Java Code. Die HTML-Seite speichert die eingebenden Daten nicht korrekt ab und übergibt diese  nicht an die Output-Seite. Außerdem gibt es auf dem User-Interface ist kein Eingabefeld für die Parameter der Sentimentanalyse und somit kann diese Daten nur auf der Funktionsebene ausgeben. Generell steckt die Sentinemtanalyse noch in einem frühen Stadium der Entwicklung. Dadurch ist diese nur eingeschränkt nutzbar. An dieser Stelle sei aber zu erwähnen, dass die Sentinemtanalyse aufgrund eines Missverständnises erst zu einem späteren Zeitpunkt als zusätzliche Funktionalität dazu gekommen ist.
 
-Nichtsdestotrotz sind die elementaren Funktionalitäten der Anwendung vorhanden und funktionsfähig. Es gibt ein User-Interface, die Häufigkeitsanalyse gibt die häufigsten Wörter im Zusammenhang des Zeitraums aus und diese werden vom Programm grafisch ausgegeben. Die Kritik der Abschlusspräsentation wurden umgesetzt und die Anwendung stellt mit ein paar Problemen das dar, was die Gruppe sich zu Beginn des Praxisprojekts vorgestellt hatte. 
-
-
-
-
-
+Nichtsdestotrotz sind die elementaren Funktionalitäten der Anwendung vorhanden und funktionsfähig. Es gibt ein User-Interface, die Häufigkeitsanalyse gibt die häufigsten Wörter im Zusammenhang des Zeitraums aus und diese werden vom Programm grafisch ausgegeben. Die Kritik der Abschlusspräsentation wurden umgesetzt und die Anwendung stellt mit ein paar Problemen das dar, was die Gruppe sich zu Beginn des Praxisprojekts vorgestellt hatte.  
