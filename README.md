@@ -1,4 +1,6 @@
-# Inhaltsangabe 
+# Dokumentation des Praxisprojektes
+
+## Inhaltsangabe 
 - [Vorstellung des Praxisprojekts](#vorstellung-des-Praxisprojekts)
    - [Ablauf der Projektarbeit](#ablauf-der-projektarbeit)
    - [Ziel der Anwendung](#ziel-der-anwendung)
