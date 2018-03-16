@@ -23,6 +23,8 @@ public class BasicPipeline
 	Dingstest d;    
     private static final URL STOPWORD_FILE = BasicPipeline.class.getClassLoader()
             .getResource("stopword.txt");
+    private static final URL t = BasicPipeline.class.getClassLoader().getResource("input.txt");
+    
     public BasicPipeline() throws ResourceInitializationException, UIMAException, IOException {
     	
     

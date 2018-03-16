@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Thu Sep 04 09:09:22 CEST 2014 */
+/* First created by JCasGen Wed Mar 14 21:32:04 CET 2018 */
 package de.unidue.langtech.teaching.pp.type;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,15 +11,15 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Wed Mar 14 21:28:56 CET 2018
+ * Updated by JCasGen Wed Mar 14 21:32:04 CET 2018
  * XML source: C:/Users/Peixaton/Desktop/jsp/git/TextAnalyticsJuliaAsss/de.unidue.langtech.teaching.pp.juleho/src/main/resources/desc/type/MySentimentScore.xml
  * @generated */
-public class MyType extends Annotation {
+public class MySentimentScore extends Annotation {
   /** @generated
    * @ordered 
    */
   @SuppressWarnings ("hiding")
-  public final static int typeIndexID = JCasRegistry.register(MyType.class);
+  public final static int typeIndexID = JCasRegistry.register(MySentimentScore.class);
   /** @generated
    * @ordered 
    */
@@ -33,14 +33,14 @@ public class MyType extends Annotation {
  
   /** Never called.  Disable default constructor
    * @generated */
-  protected MyType() {/* intentionally empty block */}
+  protected MySentimentScore() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
    * @generated
    * @param addr low level Feature Structure reference
    * @param type the type of this Feature Structure 
    */
-  public MyType(int addr, TOP_Type type) {
+  public MySentimentScore(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
@@ -48,7 +48,7 @@ public class MyType extends Annotation {
   /** @generated
    * @param jcas JCas to which this Feature Structure belongs 
    */
-  public MyType(JCas jcas) {
+  public MySentimentScore(JCas jcas) {
     super(jcas);
     readObject();   
   } 
@@ -58,7 +58,7 @@ public class MyType extends Annotation {
    * @param begin offset to the begin spot in the SofA
    * @param end offset to the end spot in the SofA 
   */  
-  public MyType(JCas jcas, int begin, int end) {
+  public MySentimentScore(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
     setEnd(end);
@@ -77,25 +77,25 @@ public class MyType extends Annotation {
  
     
   //*--------------*
-  //* Feature: MySentimentScore
+  //* Feature: sentimentScore
 
-  /** getter for MySentimentScore - gets 
+  /** getter for sentimentScore - gets 
    * @generated
    * @return value of the feature 
    */
-  public float getMySentimentScore() {
-    if (MyType_Type.featOkTst && ((MyType_Type)jcasType).casFeat_MySentimentScore == null)
-      jcasType.jcas.throwFeatMissing("MySentimentScore", "de.unidue.langtech.teaching.pp.type.MyType");
-    return jcasType.ll_cas.ll_getFloatValue(addr, ((MyType_Type)jcasType).casFeatCode_MySentimentScore);}
+  public float getSentimentScore() {
+    if (MySentimentScore_Type.featOkTst && ((MySentimentScore_Type)jcasType).casFeat_sentimentScore == null)
+      jcasType.jcas.throwFeatMissing("sentimentScore", "de.unidue.langtech.teaching.pp.type.MySentimentScore");
+    return jcasType.ll_cas.ll_getFloatValue(addr, ((MySentimentScore_Type)jcasType).casFeatCode_sentimentScore);}
     
-  /** setter for MySentimentScore - sets  
+  /** setter for sentimentScore - sets  
    * @generated
    * @param v value to set into the feature 
    */
-  public void setMySentimentScore(float v) {
-    if (MyType_Type.featOkTst && ((MyType_Type)jcasType).casFeat_MySentimentScore == null)
-      jcasType.jcas.throwFeatMissing("MySentimentScore", "de.unidue.langtech.teaching.pp.type.MyType");
-    jcasType.ll_cas.ll_setFloatValue(addr, ((MyType_Type)jcasType).casFeatCode_MySentimentScore, v);}    
+  public void setSentimentScore(float v) {
+    if (MySentimentScore_Type.featOkTst && ((MySentimentScore_Type)jcasType).casFeat_sentimentScore == null)
+      jcasType.jcas.throwFeatMissing("sentimentScore", "de.unidue.langtech.teaching.pp.type.MySentimentScore");
+    jcasType.ll_cas.ll_setFloatValue(addr, ((MySentimentScore_Type)jcasType).casFeatCode_sentimentScore, v);}    
   }
 
     

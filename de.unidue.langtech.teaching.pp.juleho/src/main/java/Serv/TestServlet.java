@@ -12,6 +12,7 @@ import org.apache.uima.resource.ResourceInitializationException;
 
 import de.unidue.langtech.teaching.pp.example.Run;
 import de.unidue.langtech.teaching.pp.example.Starter;
+import myPackage.MyRun;
 
 
 /**
@@ -57,7 +58,7 @@ public class TestServlet extends HttpServlet {
 		
 		
 		try {
-			Run run = new Run();
+			MyRun run = new MyRun();
 			run.runrun();
 		} catch (ResourceInitializationException e) {
 			// TODO Auto-generated catch block

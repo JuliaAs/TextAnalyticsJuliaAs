@@ -18,42 +18,23 @@ import de.unidue.langtech.teaching.pp.type.TweetTimeStamp;
 public class MyWordCounter extends JCasAnnotator_ImplBase{
 	
 	private static FrequencyDistribution<String> fd;
-	private HashMap<String, Integer> listOfWords;	
-	private static ArrayList<String> ei;	
-	private TweetTimeStamp tt;
-	private static ArrayList <String >tweet0;
-	private static ArrayList <String >tweet1;
-	private static ArrayList <String >tweet2;
-	private static ArrayList <String >tweet3;
-	private static ArrayList <String >tweet4;
+	
+	
 	private static String name0;
 	private static String name1;
 	private static String name2;
 	private static String name3;
 	private static String name4;	
-	private static String settest = "settest1";
-	private static HashMap<String, ArrayList<String>> hash;
-	private static ArrayList<String> seil;
-	private static List<String> testdings;
-	private static List<String> test;
+	
+	
 	public static List<String> mostFrequentSamples;
 	
 	public void initialize(UimaContext context)
             throws ResourceInitializationException
             {
+		System.out.println("MyWordCounter");
 			super.initialize(context);			
-			fd = new FrequencyDistribution<String>();
-			listOfWords = new HashMap<String, Integer>();
-			tweet0 = new ArrayList<String>();
-			tweet1 = new ArrayList<String>();
-			tweet2 = new ArrayList<String>();
-			tweet3 = new ArrayList<String>();
-			tweet4 = new ArrayList<String>();
-			hash=new HashMap<String, ArrayList<String>>();
-			seil=new ArrayList<>();
-			ei = new ArrayList<>();
-			testdings=new ArrayList<String>();
-			test = new ArrayList<String>();
+			fd = new FrequencyDistribution<String>();			
 			name0=new String();
 			name1=new String();
 			name2=new String();
@@ -74,12 +55,31 @@ public class MyWordCounter extends JCasAnnotator_ImplBase{
 	
 	public void collectionProcessComplete() {
 		mostFrequentSamples = fd.getMostFrequentSamples(5);
-		System.out.println(fd.getMostFrequentSamples(5));
+		name0=mostFrequentSamples.get(0);
+		name1=mostFrequentSamples.get(1);
+		name2=mostFrequentSamples.get(2);
+		name3=mostFrequentSamples.get(3);
+		name4=mostFrequentSamples.get(4);
 	}
 	
 	public static List<String> getMostFrequentSamples(){
 		return mostFrequentSamples;
 	}
 	
+	public static String getName0() {
+		return name0;
+	}
+	public static String getName1() {
+		return name1;
+	}
+	public static String getName2() {
+		return name2;
+	}
+	public static String getName3() {
+		return name3;
+	}
+	public static String getName4() {
+		return name4;
+	}
 
 }

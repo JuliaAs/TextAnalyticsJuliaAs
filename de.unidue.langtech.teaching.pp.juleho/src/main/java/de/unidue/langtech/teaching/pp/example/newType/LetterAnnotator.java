@@ -36,7 +36,7 @@ public class LetterAnnotator
         */
         //Set this integer value to the property of the new type 'MyType'
         MyType myType = new MyType(jcas);
-        myType.setCountLetterE(countLetterE);
+        //myType.setCountLetterE(countLetterE);
         myType.addToIndexes();
 
     }

@@ -14,30 +14,9 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Thu Sep 04 09:09:22 CEST 2014
+ * Updated by JCasGen Wed Mar 14 21:28:56 CET 2018
  * @generated */
 public class MyType_Type extends Annotation_Type {
-  /** @generated 
-   * @return the generator for this type
-   */
-  @Override
-  protected FSGenerator getFSGenerator() {return fsGenerator;}
-  /** @generated */
-  private final FSGenerator fsGenerator = 
-    new FSGenerator() {
-      public FeatureStructure createFS(int addr, CASImpl cas) {
-  			 if (MyType_Type.this.useExistingInstance) {
-  			   // Return eq fs instance if already created
-  		     FeatureStructure fs = MyType_Type.this.jcas.getJfsFromCaddr(addr);
-  		     if (null == fs) {
-  		       fs = new MyType(addr, MyType_Type.this);
-  			   MyType_Type.this.jcas.putJfsFromCaddr(addr, fs);
-  			   return fs;
-  		     }
-  		     return fs;
-        } else return new MyType(addr, MyType_Type.this);
-  	  }
-    };
   /** @generated */
   @SuppressWarnings ("hiding")
   public final static int typeIndexID = MyType.typeIndexID;
@@ -47,26 +26,26 @@ public class MyType_Type extends Annotation_Type {
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.unidue.langtech.teaching.pp.type.MyType");
  
   /** @generated */
-  final Feature casFeat_countLetterE;
+  final Feature casFeat_MySentimentScore;
   /** @generated */
-  final int     casFeatCode_countLetterE;
+  final int     casFeatCode_MySentimentScore;
   /** @generated
    * @param addr low level Feature Structure reference
    * @return the feature value 
    */ 
-  public int getCountLetterE(int addr) {
-        if (featOkTst && casFeat_countLetterE == null)
-      jcas.throwFeatMissing("countLetterE", "de.unidue.langtech.teaching.pp.type.MyType");
-    return ll_cas.ll_getIntValue(addr, casFeatCode_countLetterE);
+  public float getMySentimentScore(int addr) {
+        if (featOkTst && casFeat_MySentimentScore == null)
+      jcas.throwFeatMissing("MySentimentScore", "de.unidue.langtech.teaching.pp.type.MyType");
+    return ll_cas.ll_getFloatValue(addr, casFeatCode_MySentimentScore);
   }
   /** @generated
    * @param addr low level Feature Structure reference
    * @param v value to set 
    */    
-  public void setCountLetterE(int addr, int v) {
-        if (featOkTst && casFeat_countLetterE == null)
-      jcas.throwFeatMissing("countLetterE", "de.unidue.langtech.teaching.pp.type.MyType");
-    ll_cas.ll_setIntValue(addr, casFeatCode_countLetterE, v);}
+  public void setMySentimentScore(int addr, float v) {
+        if (featOkTst && casFeat_MySentimentScore == null)
+      jcas.throwFeatMissing("MySentimentScore", "de.unidue.langtech.teaching.pp.type.MyType");
+    ll_cas.ll_setFloatValue(addr, casFeatCode_MySentimentScore, v);}
     
   
 
@@ -82,8 +61,8 @@ public class MyType_Type extends Annotation_Type {
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
  
-    casFeat_countLetterE = jcas.getRequiredFeatureDE(casType, "countLetterE", "uima.cas.Integer", featOkTst);
-    casFeatCode_countLetterE  = (null == casFeat_countLetterE) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_countLetterE).getCode();
+    casFeat_MySentimentScore = jcas.getRequiredFeatureDE(casType, "MySentimentScore", "uima.cas.Float", featOkTst);
+    casFeatCode_MySentimentScore  = (null == casFeat_MySentimentScore) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_MySentimentScore).getCode();
 
   }
 }

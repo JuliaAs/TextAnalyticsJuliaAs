@@ -20,34 +20,78 @@ import de.unidue.langtech.teaching.pp.example.SomeOtherExample;
 import de.unidue.langtech.teaching.pp.example.pipeline.BasicPipeline;
 
 public class MyPipeline {
+	
+	//get the stopwordfile
+	private static final URL STOPWORD_FILE = MyPipeline.class.getClassLoader().getResource("stopword.txt");
+	
+	//get the data to analyse
+	private static final URL FILE_TO_ANALYZE = MyPipeline.class.getClassLoader().getResource("prepared1.txt");
+	
+	//get the sentiment lexicon
+	private static final URL LEXICON_FILE = MyPipeline.class.getClassLoader().getResource("lexicon.txt");
 
-	private static final URL STOPWORD_FILE = BasicPipeline.class.getClassLoader().getResource("stopword.txt");
-
+	//regular expressen to filter out everything else except words
 	private static final String regex = "[a-zA-Z]+";
+	
+	//array for most frequent unigrams
 	private static List<String> mostFrequentSamples;
+	
+	
 
+	/**
+	 * runs the pipeline twice
+	 * first iteration for getting the wordcount
+	 * second iteration to get the tweet time stamps for the counted words
+	 * 
+	 */
 	public MyPipeline() throws ResourceInitializationException, UIMAException, IOException {
 
-		SimplePipeline.runPipeline(
+		{
+			SimplePipeline.runPipeline(
 
-				CollectionReaderFactory.createReader(MyReader.class, MyReader.PARAM_INPUT_FILE,
-						"src/test/resources/test/prepared.txt"),
-				AnalysisEngineFactory.createEngineDescription(BreakIteratorSegmenter.class),
+					CollectionReaderFactory.createReader(MyReader.class, MyReader.PARAM_INPUT_FILE,
+							FILE_TO_ANALYZE.getPath()),
+					
+					AnalysisEngineFactory.createEngineDescription(BreakIteratorSegmenter.class),
+					
+					AnalysisEngineFactory.createEngineDescription(RegexTokenFilter.class, RegexTokenFilter.PARAM_REGEX,
+							regex, RegexTokenFilter.PARAM_MUST_MATCH, true),
+					
+					AnalysisEngineFactory.createEngineDescription(TrailingCharacterRemover.class),
+					
+					AnalysisEngineFactory.createEngineDescription(StopWordRemover.class,
+							StopWordRemover.PARAM_MODEL_LOCATION, STOPWORD_FILE),
+					
+					AnalysisEngineFactory.createEngineDescription(MyWordCounter.class),
+					
+					AnalysisEngineFactory.createEngineDescription(CasDumpWriter.class));
+			
+			mostFrequentSamples = MyWordCounter.getMostFrequentSamples();
+			System.out.println("Mypipeline" + mostFrequentSamples);
+		}
+		{
+			SimplePipeline.runPipeline(
 
-				AnalysisEngineFactory.createEngineDescription(RegexTokenFilter.class, RegexTokenFilter.PARAM_REGEX,
-						regex, RegexTokenFilter.PARAM_MUST_MATCH, true),
-
-				AnalysisEngineFactory.createEngineDescription(TrailingCharacterRemover.class),
-
-				AnalysisEngineFactory.createEngineDescription(StopWordRemover.class,
-						StopWordRemover.PARAM_MODEL_LOCATION, STOPWORD_FILE),
-
-				AnalysisEngineFactory.createEngineDescription(MyWordCounter.class),
-
-				AnalysisEngineFactory.createEngineDescription(CasDumpWriter.class)
-
-		);
-
+					CollectionReaderFactory.createReader(MyReader.class, MyReader.PARAM_INPUT_FILE,
+							FILE_TO_ANALYZE.getPath()),
+					
+					AnalysisEngineFactory.createEngineDescription(BreakIteratorSegmenter.class),
+					
+					AnalysisEngineFactory.createEngineDescription(RegexTokenFilter.class, RegexTokenFilter.PARAM_REGEX,
+							regex, RegexTokenFilter.PARAM_MUST_MATCH, true),
+					
+					AnalysisEngineFactory.createEngineDescription(TrailingCharacterRemover.class),
+					
+					AnalysisEngineFactory.createEngineDescription(StopWordRemover.class,
+							StopWordRemover.PARAM_MODEL_LOCATION, STOPWORD_FILE),
+					
+					AnalysisEngineFactory.createEngineDescription(MySentiment.class,
+	                		MySentiment.PARAM_MODEL_LOCATION, LEXICON_FILE.getPath()),
+					
+					AnalysisEngineFactory.createEngineDescription(TweetTimeLookup.class),
+					
+					AnalysisEngineFactory.createEngineDescription(CasDumpWriter.class));
+		}
 	}
 
 	public static void main(String[] args) throws Exception {
@@ -55,7 +99,7 @@ public class MyPipeline {
 			SimplePipeline.runPipeline(
 
 					CollectionReaderFactory.createReader(MyReader.class, MyReader.PARAM_INPUT_FILE,
-							"src/test/resources/test/prepared.txt"),
+							FILE_TO_ANALYZE.getPath()),
 					AnalysisEngineFactory.createEngineDescription(BreakIteratorSegmenter.class),
 					AnalysisEngineFactory.createEngineDescription(RegexTokenFilter.class, RegexTokenFilter.PARAM_REGEX,
 							regex, RegexTokenFilter.PARAM_MUST_MATCH, true),
@@ -63,6 +107,7 @@ public class MyPipeline {
 					AnalysisEngineFactory.createEngineDescription(StopWordRemover.class,
 							StopWordRemover.PARAM_MODEL_LOCATION, STOPWORD_FILE),
 					AnalysisEngineFactory.createEngineDescription(MyWordCounter.class),
+					
 					AnalysisEngineFactory.createEngineDescription(CasDumpWriter.class));
 			mostFrequentSamples = MyWordCounter.getMostFrequentSamples();
 			System.out.println("Mypipeline" + mostFrequentSamples);
@@ -71,13 +116,15 @@ public class MyPipeline {
 			SimplePipeline.runPipeline(
 
 					CollectionReaderFactory.createReader(MyReader.class, MyReader.PARAM_INPUT_FILE,
-							"src/test/resources/test/prepared.txt"),
+							FILE_TO_ANALYZE.getPath()),
 					AnalysisEngineFactory.createEngineDescription(BreakIteratorSegmenter.class),
 					AnalysisEngineFactory.createEngineDescription(RegexTokenFilter.class, RegexTokenFilter.PARAM_REGEX,
 							regex, RegexTokenFilter.PARAM_MUST_MATCH, true),
 					AnalysisEngineFactory.createEngineDescription(TrailingCharacterRemover.class),
 					AnalysisEngineFactory.createEngineDescription(StopWordRemover.class,
 							StopWordRemover.PARAM_MODEL_LOCATION, STOPWORD_FILE),
+					AnalysisEngineFactory.createEngineDescription(MySentiment.class,
+	                		MySentiment.PARAM_MODEL_LOCATION, LEXICON_FILE.getPath()),
 					AnalysisEngineFactory.createEngineDescription(TweetTimeLookup.class),
 					AnalysisEngineFactory.createEngineDescription(CasDumpWriter.class));
 		}

@@ -25,6 +25,7 @@ import org.apache.uima.util.ProgressImpl;
 
 import de.tudarmstadt.ukp.dkpro.core.api.io.ResourceCollectionReaderBase.Resource;
 import de.unidue.langtech.teaching.pp.type.GoldLanguage;
+import de.unidue.langtech.teaching.pp.type.MySentimentScore;
 import de.unidue.langtech.teaching.pp.type.TweetTimeStamp;
 import de.unidue.langtech.teaching.type.RawTweet;
 
@@ -110,7 +111,10 @@ public class MyReader extends JCasCollectionReader_ImplBase {
         raw.setRawTweet(extract);
         raw.addToIndexes();
 
-        
+        MySentimentScore ms = new MySentimentScore(jcas);
+        //set default value 100 for sentiment score
+        ms.setSentimentScore(100);
+        ms.addToIndexes();
 
         //unescaping makes the unicode characters (\\uXXXX) readable
         jcas.setDocumentText(StringEscapeUtils.unescapeJava(extract));
