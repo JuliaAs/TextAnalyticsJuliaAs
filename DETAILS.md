@@ -4,7 +4,7 @@ Zum Beginn der Gruppenarbeit hat die Gruppe sich eine Thematik für die zu imple
 
 Nachdem die Gruppe viel Zeit in die Recherche investiert hatte, hielt sie Rücksprache mit Prof. Dr.-Ing. Torsten Zech. Im Gespräch mit Ihm definierte sich eine Häufigkeitsanalyse der Wörter in Beiträgen als gute Anwendungsfunktionalität. Tobias Horsmann schickte der Gruppe einen Twitter-Datensatz, an welchem die Analyse getestet werden konnte. An der Häufigkeitsanalyse und dem User-Interface wurde bis zur Abschlusspräsentation gearbeitet.
 
-Die in der Abschlusspräsentation genannten Kritikpunkte hat man bis zur Abgabe versucht umzusetzen. Dies ist mit Ausnahmen auch passiert. Für weitere Funktionalitäten innerhalb der Anwendung war die Zeit zwischen der Abschlusspräsentation und Abgabe der Anwendung neben der Prüfungsphase zu knapp. Parallel zur Implementierung wurde an der Dokumentation des Praxisprojektes gearbeitet.
+Die in der Abschlusspräsentation genannten Kritikpunkte hat man bis zur Abgabe versucht umzusetzen. Dies ist mit Ausnahmen auch passiert. Für weitere Funktionalitäten innerhalb der Anwendung war die Zeit zwischen der Abschlusspräsentation und Abgabe der Anwendung neben der Prüfungsphase zu knapp. Parallel zur Implementierung wurde an der [Dokumentation des Praxisprojektes](README.md) gearbeitet.
 
 
 ## Vorgehensweise
