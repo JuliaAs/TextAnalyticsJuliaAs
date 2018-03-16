@@ -57,12 +57,9 @@ In einem weiteren Feld gibt der Nutzer eine Anfangs-/ und eine Endzeit an. Diese
 Durch das Klicken auf den "Safe"-Button speichert der Nutzer die Eingaben und startet somit die Analyse des Datensatzes.
 
 Platz für SA Erklärung? (to do?)
- 
 
 ## Output
-FEHLT (to do) - [Bild vom aktuellen Output](chart1.png)
-
-![Test](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/chart1.png) 
+FEHLT (to do) 
 
 ## Evaluation 
 FEHLT (to do)
