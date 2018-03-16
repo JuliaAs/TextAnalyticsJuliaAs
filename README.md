@@ -23,7 +23,7 @@ Das Praxisprojekt besteht aus drei Meilensteine:
 2. _Die Vorstellung der Demoversion der Anwendung_
 3. _Die Dokumentation zu der Anwendung_
 
-Eine auführliche Erklärung zur Vorgehensweise, [finden Sie hier](TextAnalyticsJuliaAs/DETAILS.md).
+Eine auführliche Erklärung zur Vorgehensweise, [finden Sie hier](DETAILS.md).
 
 ### Ziel der Anwendung
 Die Gruppe hat sich für die Entwicklung einer Anwendung im Bereich **Social Media Analytics** entschieden. Das Ziel der Anwendung ist die **Textanalyse von Twitter-Beiträgen auf prägnante Themeninhalte**. Die Anwendung soll eine Analyse eventbetreffender Themen durchführen und so eine Hilfestellung für Wissenschaftler sein, die sich mit Ereignisse auseinander setzen, die auf Social Media-Plattformen diskutiert werden.
