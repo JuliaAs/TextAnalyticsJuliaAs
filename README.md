@@ -15,7 +15,7 @@
 - [Fazit](#fazit)
 
 ## Vorstellung des Praxisprojekts
-Die Aufgabe des Praxisprojekt ist es eine **Anwendung zum analysieren von textbasierter Sprache** zu implentieren. Dafür teilten sich die Teilnehmer des Praxisprojekts in dreier Gruppen auf und überlegten sich eine Problemstellung, die sie mithilfe ihrere Anwendung lösen wollten.
+Die Aufgabe des Praxisprojekts ist es eine **Anwendung zur Analysieren von textbasierter Sprache** zu implementieren. Dafür teilten sich die Teilnehmer des Praxisprojekts in dreier Gruppen auf und überlegten sich eine Problemstellung, die sie mithilfe ihrer Anwendung lösen wollten.
 
 ### Ablauf der Projektarbeit
 Das Praxisprojekt besteht aus drei Meilensteine:
@@ -23,13 +23,13 @@ Das Praxisprojekt besteht aus drei Meilensteine:
 2. _Die Vorstellung der Demoversion der Anwendung_
 3. _Die Dokumentation zu der Anwendung_
 
-Eine auführliche Erklärung zur Vorgehensweise, [finden Sie hier](DETAILS.md).
+Eine detailierte Ausführung des Ablaufs finden Sie hier, [finden Sie hier](DETAILS.md).
 
 ### Ziel der Anwendung
-Die Gruppe hat sich für die Entwicklung einer Anwendung im Bereich **Social Media Analytics** entschieden. Das Ziel der Anwendung ist die **Textanalyse von Twitter-Beiträgen auf prägnante Themeninhalte**. Die Anwendung soll eine Analyse eventbetreffender Themen durchführen und so eine Hilfestellung für Wissenschaftler sein, die sich mit Ereignisse auseinander setzen, die auf Social Media-Plattformen diskutiert werden.
-Das Programm testet dafür Datensätze von Twitter-beiträgen, um die von den Nutzer des sozialen Netzwerks am häufigsten verwendete Worte festzustellen. Dies kann in vielen verschiedenen Bereichen von Nutzen sein: Markt-, Produktakzeptenz-, Krisenkommunikationsanalyse oder Inhaltanalyse. Die Anwendung soll dabei helfen, den Forschern einen ersten Überblick über themenrelevante Daten und ihren Einfluss auf die Beiträge in sozialen Netzwerken zu verschaffen. Dabei gilt der Grundsatz: Je häufiger die Wörter in Twitter-Beiträgen genutzt werden, desto relevanter sind sie für die Nutzer. Diese Funktionalität bietet nicht nur eine Häufigkeitsanalyse, sondern gibt Forschen die Möglichkeit die zeitliche Abhängigkeit mit zu berücksichtigen und den Kommunikationsverlauf über die Zeit zu betrachten. Als weitere Faktor, kann die Tonalität der Wörter mithilfe einer Sentiment Analyse herausgefiltert werden. 
+Die Gruppe hat sich für die Entwicklung einer Anwendung im Bereich **Social Media Analytics** entschieden. Das Ziel der Anwendung ist die **Textanalyse von Twitter-Beiträgen auf prägnante Themeninhalte**. Die Anwendung soll eine Analyse eventbetreffender Themen durchführen und so eine Hilfestellung für Wissenschaftler sein, die sich mit Ereignisse auseinandersetzen, die auf Social Media-Plattformen diskutiert werden.
+Das Programm testet dafür Datensätze von Twitter-beiträgen, um die von dem Nutzer des sozialen Netzwerks am häufigsten verwendete Worte festzustellen. Dies kann in vielen verschiedenen Bereichen von Nutzen sein: Markt-, Produktakzeptenz-, Krisenkommunikationsanalyse oder Inhaltanalyse. Die Anwendung soll dabei helfen, den Forschern einen ersten Überblick über themenrelevante Daten und ihren Einfluss auf die Beiträge in sozialen Netzwerken zu verschaffen. Dabei gilt der Grundsatz: Je häufiger die Wörter in Twitter-Beiträgen genutzt werden, desto relevanter sind sie für die Nutzer. Diese Funktionalität bietet nicht nur eine Häufigkeitsanalyse, sondern gibt Forschen die Möglichkeit die zeitliche Abhängigkeit mit zu berücksichtigen und den Kommunikationsverlauf über die Zeit zu betrachten. Als weiterer Faktor, kann die Tonalität der Wörter mithilfe einer Sentimentanalyse herausgefiltert werden. 
 
-Kernfunktionen der Anwendung mit _Beispiel aus der Kriesenkommunikation_:
+Kernfunktionen der Anwendung mit _Beispiel aus der Krisenkommunikation_:
 1.	Erkennung der häufigsten Wörter in einem Twitter Datensatz (Relevanz der Thematik)
       - _Nach einem Erdbeben sind die häufigsten Wörter, die mit erbebenrelevante Thematik => Das Erdbeben ist relevant_
 2.	Zusammenhang mit der Zeit des Postings (Kommunikationsverlauf)
@@ -86,7 +86,7 @@ Im Folgenden finden Sie ein Résumé über die Anwendung:
 - [ ] Ausgabe der Ergebnisse der Sentimentanalyse 
 - [ ] Kommunikation zwischen dem Interface und den Funktionalitäten 
 
-Die Anwendung läuft nicht fehlerfrei. Es gibt Kommunikationsprobleme zwischen der HTML-Seite und dem Java Code. Die HTML-Seite speichert die eingebenen Daten nicht korrekt ab und übergibt diese  nicht an die Outputseite. Außerdem gibt es auf dem User-Interface ist kein Eingabefeld für die Parameter der Sentimentanalyse und somit kann diese Daten nur auf der Funktionsebene ausgeben. Generell steckt die Sentinemtanalyse noch in einem frühen Stadium der Entwicklung. Dadurch ist diese nur eingeschränkt nutzbar. An dieser Stelle sei aber zu erwähnen, dass die Sentinemtanalyse aufgrund eines Missverständnis' erst zu einem späteren Zeitpunkt als zusätzliche Funktionalität dazu gekommen ist.
+Die Anwendung läuft nicht fehlerfrei. Es gibt Kommunikationsprobleme zwischen der HTML-Seite und dem Java Code. Die HTML-Seite speichert die eingebenden Daten nicht korrekt ab und übergibt diese  nicht an die Output-Seite. Außerdem gibt es auf dem User-Interface ist kein Eingabefeld für die Parameter der Sentimentanalyse und somit kann diese Daten nur auf der Funktionsebene ausgeben. Generell steckt die Sentinemtanalyse noch in einem frühen Stadium der Entwicklung. Dadurch ist diese nur eingeschränkt nutzbar. An dieser Stelle sei aber zu erwähnen, dass die Sentinemtanalyse aufgrund eines Missverständnises erst zu einem späteren Zeitpunkt als zusätzliche Funktionalität dazu gekommen ist.
 
 Nichtsdestotrotz sind die elementaren Funktionalitäten der Anwendung vorhanden und funktionsfähig. Es gibt ein User-Interface, die Häufigkeitsanalyse gibt die häufigsten Wörter im Zusammenhang des Zeitraums aus und diese werden vom Programm grafisch ausgegeben. Die Kritik der Abschlusspräsentation wurden umgesetzt und die Anwendung stellt mit ein paar Problemen das dar, was die Gruppe sich zu Beginn des Praxisprojekts vorgestellt hatte. 
 
