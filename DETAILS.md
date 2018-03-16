@@ -16,23 +16,26 @@ Die in der Abschlusspräsentation genannten Kritikpunkte hat man bis zur Abgabe 
 ## Gruppeninterne Vorgehensweise
 
 ### Projektmanagment 
-Von Anfang an haben wir versucht bei unserem Projektmanagement an den Werte der agile Softwareentwiclung zu stürtzen:
-1.	Individuen und Interaktionen vor Tools
-2.	Funktionierende Programme vor ausführliche Spezifikation
-3.	Stetige Zusammenarbeit mit dem Auftraggeber
-4.	Offenheit und Flexibilität vor festgelegten Plan
+Von Anfang an hat die Gruppe versucht sich beim Projektmanagement an den Werte der agile Softwareentwicklung zu orientieren:
+- Individuen und Interaktionen vor Tools
+- Funktionierende Programme vor ausführliche Spezifikation
+- Stetige Zusammenarbeit mit dem Auftraggeber
+- Offenheit und Flexibilität vor festgelegten Plan
 
-Diese Werte wurden allerdings im Laufe der Arbeit durch die konkurrierende Ziele des Projektmanagements eingegrenzt: Qualität, Ressourcen und Zeit.
+Diese Werte wurden allerdings im Laufe der Gruppenarbeit durch die Ziele des Projektmanagements eingegrenzt: 
+- Qualität
+- Ressourcen
+- Zeit
 
-Deswegen haben wir uns bei der groben Planung für die folgende Vorgehensweise entschieden:
-I.	Vorphase: Recherche
-II.	Planung und Organisation: vollständiges Design, Auswahl der Tools und Pipeline Definition
-III.	Produktion: Implementierung
-IV.	Post-Produktion: Fehler-Korrektur 					
+Deswegen hat man sich bei der groben Planung für die folgende Vorgehensweise entschieden:
+1. Vorphase: Recherche
+2. Planung und Organisation: vollständiges Design, Auswahl der Tools und Pipeline Definition
+3. Produktion: Implementierung
+4. Post-Produktion: Fehler-Korrektur 					
 
-Unsere Arbeit könnte durch oben vorgestellten Bild 2. veranschaulich dargestellt werden. Die Hauptaufgabe wurde in Teilpackete unterteilt, die mit einander verbunden und abgeglichen wurden.
+Die Hauptaufgabe wurde in Teilaufgaben unterteilt, die immer wieder miteinander verbunden und abgeglichen wurden.
 
-Nach dem wir die Idee des Projektes festgelegt haben, wurde die Anforderungsanalyse als weitere Schritt ausgewählt und mittels gemeinsames Brainstormings und mittels Experten-Gespräch durchgef ührt, um das Ziel des Projektes zu definieren.
+Nachdem die Idee des Projektes festgelegt haben, wurde die Anforderungsanalyse als weitere Schritt ausgewählt und mittels gemeinsames Brainstormings und mittels Experten-Gespräch durchgef ührt, um das Ziel des Projektes zu definieren.
 
 ### Auswertung der Anforderungsanalyse  																							
 Business Case: Bei der Analyse der Kommunikation in sozialen Netzwerken in Krisensituation helfen eine Aussage über das Posting-Verhalten von Nutzer sozialer Netzwerke über ein Krisenthema.
