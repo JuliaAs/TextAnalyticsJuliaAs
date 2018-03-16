@@ -38,8 +38,7 @@ Kernfunktionen der Anwendung mit _Beispiel aus der Krisenkommunikation_:
 3.	Zuteilung der Tonalität den häufigsten Wörtern (positiv, neutral, negativ)
       - _Sind die Beiträge eher negativ (Wut, Trauer), positiv (Erleichterung) oder neutral (Berichterstattung) => Emotionsverlagerung_  
 
-Damit lassen sich Aussagen über die Schnelligkeit von eventbezogenen Resonanzen treffen.
-
+Damit lassen sich Aussagen über den zeitlichen Verlauf von Online-Kommunikation über die Relevanz eines Themas treffen, aufgrund der Häufigkeit der Wörter in Social Media-Beiträgen
 ## Anleitung der Anwendung 
 Im Folgenden finden Sie eine Anleitung zur Einrichtung, Konfiguration und Verwendung der Anwendung.
 
