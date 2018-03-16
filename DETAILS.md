@@ -35,17 +35,12 @@ Deswegen hat man sich bei der groben Planung für die folgende Vorgehensweise en
 
 Die Hauptaufgabe wurde in Teilaufgaben unterteilt, die immer wieder miteinander verbunden und abgeglichen wurden.
 
-Nachdem die Idee des Projektes festgelegt haben, wurde die Anforderungsanalyse als weitere Schritt ausgewählt und mittels gemeinsames Brainstormings und mittels Experten-Gespräch durchgef ührt, um das Ziel des Projektes zu definieren.
-
-### Auswertung der Anforderungsanalyse  																							
-Business Case: Bei der Analyse der Kommunikation in sozialen Netzwerken in Krisensituation helfen eine Aussage über das Posting-Verhalten von Nutzer sozialer Netzwerke über ein Krisenthema.
-
-Ziel: Eine Anwendung zu programmieren, die eine Analyse über den Posting-Verhalten während einer Krisensituation in sozialen Netzwerken liefert. Die Anwendung untersucht Beiträge in sozialen Netzwerken auf die am häufigsten kommunizierten Wörter in Abhängigkeit des zeitlichen Ablaufs der Krisensituation.
+### Anforderungsanalyse
+Eine Anfoderungsanalyse wurde mittels Brainstorming und Gesprächen zwischen den Gruppenmitgliedern durchgeführt.
 
 ATIC Rahmen Nutzeranforderungen | Beschreibung
 ------------------- | ------------ 
 Aufgabe | Analysieren von einem Twitter-Datensatz mit Berücksichtigung der Häufigkeit
-Die Dauer der Auftrag: ca 10 Minuten.
 Rollen | Wissenschaftliche Mitarbeiter, HiWis, SHKs.
 Information | Twitter-Datensatz (Von Tobias Horsmann zur Verfügung gestellt)
 Kontext | Eine am PC zu verwendende Anwendung 
