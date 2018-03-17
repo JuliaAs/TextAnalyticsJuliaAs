@@ -90,14 +90,13 @@ Das Ergebnis variiert teilweise deutlich je nach Häufigkeit der Lexikonwörter 
 
 Die Anwendung erkennt die positiven und negativen Beiträge fehlerfrei. Die neutralen Beiträge stellen ein Problem bei der Analyse dar. Eine mögliche Erklärung für die Problematik bei neutralen Beiträgen wäre, dass diese Berichterstattungen und somit teilweise auch Zitate beinhalten. So könnte die Neutralität der Beiträge durch die Emotionalität in den Zitaten oder Formulierungen beeinflusst sein.
 
+Das genutzte Lexikon zur Evaluation der Sentinmentanalyse (SemEval-2015 English Twitter Sentimen Lexicon, created using Best-Worst Scaling(aka MaxDiff)) [finden Sie hier](http://saifmohammad.com/WebPages/lexicons.html).
+
 ### Grafische Ausgabe
 FEHLT (to do)
 
 - Ergebnis:
 FEHLT (to do)
-
-### Quellen
-- Das genutzte Lexikon zur Evaluation der Sentinmentanalyse (SemEval-2015 English Twitter Sentimen Lexicon, created using Best-Worst Scaling(aka MaxDiff)) [finden Sie hier](http://saifmohammad.com/WebPages/lexicons.html).
 
 ## Fazit
 Im Folgenden finden Sie ein Résumé über die Anwendung:
