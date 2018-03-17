@@ -12,6 +12,7 @@
 - [Evaluation](#evaluation) x
    - [Häufigkeitsanalyse](#häufigkeitsanalyse) 
    - [Sentimentanalyse](#sentimentanalyse) x
+   - [Grafische Ausgabe](#grafische-ausgabe)
    - [Quellen](#quellen)
 - [Fazit](#fazit) x 
 
