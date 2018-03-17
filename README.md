@@ -58,11 +58,11 @@ Der Nutzer ruft die Startseite der Anwendung auf und sieht ein Startbutton. Nach
 ## Output
 Die Anwendung gibt nach den Analysen vier verschiedene Outputs aus:
 - Häufigkeitsanalyse
-  - http://github.com - automatic! [Unigram](TextAnalyticsJuliaAs/Output/Unigram.png)
-  - [Bigram](TextAnalyticsJuliaAs/Output/Bigram.png)
-  - [Trigram](TextAnalyticsJuliaAs/Output/Trigram.png)
+  - Unigram
+  - Bigram
+  - Trigram
 
-Eine Übersicht aller Outputs der Anwendung ![finden Sie zusätzlich hier](Output). 
+Eine Übersicht aller Outputs der Anwendung in grafischer Form ![finden Sie zusätzlich hier](Output). 
 
 ## Evaluation 
 Im Folgenden wird die Evaluation der [Häufigkeitsanalyse](#häufigkeitsanalyse), die [Sentimentsanalyse](#sentimentanalyse) und die [grafische Ausgabe](#grafische-ausgabe) der Anwendung vorgestellt.
