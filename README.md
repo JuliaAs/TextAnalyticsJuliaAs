@@ -62,12 +62,14 @@ Platz für SA Erklärung? (to do?)
 FEHLT (to do) 
 
 ## Evaluation 
-FEHLT (to do)
+Im Folgenden wurde (die Häufigkeitsanalyse) sowie die Sentimentsanalyse der Anwendung.
 
-### Erläuterung
-FEHLT (to do)
+### Erläuterung zur Sentimentanalyse 
+Die Sentimentanalyse wurde anhand von 30 Twitter-Beiträgen evaluiert. Diese bestanden aus jeweils 10 positiven, 10 negativen und 10 neutralen Tweets, die als "Goldstandard" festgelegt wurden.
 
-### Goldstandard
+#### Ergebnis
+
+### Erläuterung zur Häufigkeitsanalyse
 FEHLT (to do)
 
 ### Ergebnis 
