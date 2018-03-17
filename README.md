@@ -65,6 +65,10 @@ Die Anwendung gibt nach den Analysen vier verschiedene Outputs aus:
 
 Eine Übersicht aller Outputs der Anwendung in grafischer Form ![finden Sie zusätzlich hier](Output). 
 
+Das **Unigram** ist ein Liniendiagramm mit der Überschrift "Häufigkeit der Wörter" und einer x- und einer y-Achse. Auf der x-Achse ist die Anzahl der Wörter vermerkt und auf der y-Achse die lineare Zeit. Die Zuordnung der Zeit findet mithilfe der Zeitangaben der Twitter-Beiträgen statt. Jedes der fünf häufigsten Wörter in den Beiträgen hat jeweils eine eigene Linienfarbe. Durch die Achsenbeschreibung und der Höhe der Linien ist deutlich zu erkennen, welches Wort am häufigsten genutzt wurde.
+
+Sowohl  das **Bi-** als auch das **Trigram** sind im Gegensatz dazu Säulendiagramme.
+
 ## Evaluation 
 Im Folgenden wird die Evaluation der [Häufigkeitsanalyse](#häufigkeitsanalyse), die [Sentimentsanalyse](#sentimentanalyse) und die [grafische Ausgabe](#grafische-ausgabe) der Anwendung vorgestellt.
 
