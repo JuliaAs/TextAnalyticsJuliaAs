@@ -37,7 +37,7 @@ Deswegen hat man sich bei der groben Planung für die folgende Vorgehensweise en
 Die Hauptaufgabe der Implementierung der Anwendung wurde in Teilaufgaben unterteilt, die immer wieder miteinander verbunden und abgeglichen wurden.
 
 ### Anforderungsanalyse
-Eine Anfoderungsanalyse wurde mittels Brainstorming und Gesprächen zwischen den Gruppenmitgliedern durchgeführt.
+Eine Anforderungsanalyse wurde mittels Brainstorming und Gesprächen zwischen den Gruppenmitgliedern durchgeführt.
 
 ATIC Rahmen Nutzeranforderungen | Beschreibung
 ------------------- | ------------ 
