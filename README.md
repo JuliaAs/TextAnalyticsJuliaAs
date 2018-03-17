@@ -82,6 +82,7 @@ Die Sentimentanalyse wird anhand von 30 Twitter-Beiträgen evaluiert. Diese best
   -  8 von 10 neutrale Beiträgen wurden als positiv erkannt
   -  1 von 10 von neutralen Beiträgen hat keine Übereinstimmung mit unserem Lexikon
   -  1 von 10 von neutralen Beiträgen wurde als negativ erkannt
+  
 Das Ergebnis variiert teilweise deutlich je nach Häufigkeit der Lexikonwörter im Text. Teilweise resultiert ein deutlicher Score von -(2.01) - (-0.7) oder 0.2 – 3.5.
 
 Die Anwendung erkennt die positiven und negativen Beiträge fehlerfrei. Die neutralen Beiträge stellen ein Problem bei der Analyse dar. Eine mögliche Erklärung für die Problematik bei neutralen Beiträgen wäre, dass diese Berichterstattungen und somit teilweise auch Zitate beinhalten. So könnte die Neutralität der Beiträge durch die Emotionalität in den Zitaten oder Formulierungen beeinflusst sein.
@@ -96,7 +97,7 @@ FEHLT (to do)
 
 ## Fazit
 Im Folgenden finden Sie ein Resümee über die Anwendung:
-- [x] User-Interface für die Anwendung
+- [x] User-Interface der Anwendung
 - [x] Häufigkeitsanalyse der Wörter in den Twitter-Beiträgen
 - [x] Zusammenhang von Häufigkeit der Wörter und der Zeit des Postings
 - [x] Grafische Ausgabe der Häufigkeitsanalyse 
@@ -105,4 +106,4 @@ Im Folgenden finden Sie ein Resümee über die Anwendung:
 
 Die Funktionalitäten der Anwendung sind auf die Häufigkeits- und Sentimentanalyse beschränkt. Das Programm unterstützt in der jetzigen Version keine Arbeit mit externen Datensätze und der Nutzer kann keine Einstellungen an der Anwendung vornehmen. Dies ist unter anderem der Fall, da die geplante Einstellung des Zeitraums der zu analysierenden Beiträge zu Problemen bei der Kodierung geführt hat und somit wegfiel. Bei der Evaluation zeigte die Häufigkeitsanalyse außerdem eine Problematik mit falsch geschriebenen Wörtern und  die Sentimentanalyse eine Schwäche für Neutralität in den Beiträgen.     
 
-Die FUnktionalitäten zeigen jedoch keine größere Fehleranfälligkeit. Es gibt ein **User-Interface**, die **Häufigkeitsanalyse** sucht die häufigsten Wörter/Wortkombinationen im Zusammenhang der jeweiligen Zeitangaben der Beiträge, gibt diese grafisch als **Uni-, Bi- und Trigram** aus und die **Sentimentanalyse** lässt Schlüsse über die Tonalität der Beiträge ziehen. Die Kritik der Abschlusspräsentation wurden umgesetzt 
+Die Funktionalitäten zeigen jedoch keine größere Fehleranfälligkeit. Es gibt ein **User-Interface**, die **Häufigkeitsanalyse** sucht die häufigsten Wörter/Wortkombinationen im Zusammenhang der jeweiligen Zeitangaben der Beiträge, gibt diese grafisch als **Uni-, Bi- und Trigram** aus und die **Sentimentanalyse** lässt Schlüsse über die Tonalität der Beiträge ziehen. 
