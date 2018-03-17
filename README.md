@@ -4,10 +4,10 @@
 - [Vorstellung des Praxisprojekts](#vorstellung-des-praxisprojekts) x
    - [Ablauf der Projektarbeit](#ablauf-der-projektarbeit) x
    - [Ziel der Anwendung](#ziel-der-anwendung) x   
-- [Anleitung der Anwendung](#anleitung-der-anwendung)
+- [Anleitung der Anwendung](#anleitung-der-anwendung) x 
    - [Einrichtung](#einrichtung)
    - [Konfiguration](#konfiguration)
-   - [Verwendung](#verwendung)
+   - [Verwendung](#verwendung) x 
 - [Output](#output)
 - [Evaluation](#evaluation) x
    - [Häufigkeitsanalyse](#häufigkeitsanalyse) x
@@ -51,13 +51,9 @@ FEHLT (to do)
 FEHLT (to do)
 
 ### Verwendung
-**_Der zu analysierende Datensatz ist in dieser Version vorgegeben. Eine Option zum Hochladen externer Datensätze ist nicht gegeben, jedoch eine mögliche ergänzende Funktionalität._**
+_**Der zu analysierende Datensatz ist in dieser Version vorgegeben. Eine Option zum Hochladen externer Datensätze ist nicht gegeben, jedoch eine Funktionalität, die bei einer eventuellen Veröffentlichung der Anwendung dazu kommen sollte. Der jetztige Entwicklungstand dient nur zur Veranschaulichung der Funktionalitäten der Anwendung innerhalb des Praxisprojekts_**
 
-Der Nutzer besucht die Seite der Anwendung und sieht das User-Interface mit Eingabefeldern. Dort kann er einen Titel, sowie Ort des Geschehens eintragen. Beide Angaben haben keinen Einfluss auf die Textanalyse der Daten. Sie werden lediglich im Output als standardisierter Satz vor den Ergebnissen stehen und dient somit der Usability.
-In einem weiteren Feld gibt der Nutzer eine Anfangs-/ und eine Endzeit an. Diese definieren den Zeitraum der Twitter-Beiträge, die von der Anwendung analysiert werden sollen.
-Durch das Klicken auf den "Safe"-Button speichert der Nutzer die Eingaben und startet somit die Analyse des Datensatzes.
-
-Platz für SA Erklärung? (to do?)
+Der Nutzer ruft die Startseite der Anwendung auf und sieht ein Startbutton. Nachdem dieser angeklickt worden ist, startet die Analyse des integrieten Datensatzes. Es folgt ein Output der die Häufigkeitsanalyse der häufigsten fünf Wörter/Wortkombinationen als Uni-, Bi- sowie Trigram und eine Sentimentanalyse der Beiträge beinhaltet. 
 
 ## Output
 FEHLT (to do) 
