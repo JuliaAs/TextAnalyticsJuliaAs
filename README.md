@@ -68,11 +68,12 @@ Im Folgenden wird die Häufigkeitsanalyse, die Sentimentsanalyse (und die grafis
 ### Häufigkeitsanalyse
 Die Häufigkeitsanalyse wird auf den integrieten Twitter-Datensatz evaluiert. Sie erfolgt auf Tokenbasis. d.h. die Erkennungsrate der Tokens ist 100%. Es wurden vor dem Zählen der Tokens einige Filter angewendet, um unnötige Zeichen zu entfernen:
 
-- **Trailingcharacter Remover**, um z.b. _Punkte, Komma, und Sonderzeichen zu entfernen_.
-- **Stopwordremover**, um Wörter zu entfernen, die keine Relevanz bei der Häufikeitssuche habe z.B. _the, it, a, of_.
-- **Regextokenfilter**, um Sonderzeichen zu entfernen, die keine Buchstaben sind, da wir zwischenzeitlich Probleme mit der Kodierung von Sonderzeichen hatten.
+1. **Trailingcharacter Remover**, um z.b. _Punkte, Komma, und Sonderzeichen zu entfernen_.
+2. **Stopwordremover**, um Wörter zu entfernen, die keine Relevanz bei der Häufikeitssuche habe z.B. _the, it, a, of_.
+3. **Regextokenfilter**, um Sonderzeichen zu entfernen, die keine Buchstaben sind, da wir zwischenzeitlich Probleme mit der Kodierung von Sonderzeichen hatten.
 
 - Ergebnis:
+
 Die Häufigkeitsanalyse zeigt die fünf häufigsten Wörter der Beiträge an. Die grafische Ausgabe können Sie hier sehen (VERLINKUNG). Da es Probleme mit der Kodierung von Sonderzeichen gab, hat man sich für den Regextokenfilter entschieden. Eine 
 Problematik der Analyse ist zum Beispiel: Sind Wörter häufig falsch geschrieben, werden sie getrennt zu den Wörtern, die richtig geschrieben bzw. gemeint wurden gezählt.
 
