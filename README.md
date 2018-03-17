@@ -11,8 +11,8 @@
 - [Output](#output)
 - [Evaluation](#evaluation) x
    - [Häufigkeitsanalyse](#häufigkeitsanalyse) x
-   - [Goldstandard](#goldstandard)
-   - [Ergebnis](#ergebnis)
+   - [Sentimentanalyse](#sentimentanalyse)
+   - [Quellen](#quellen)
 - [Fazit](#fazit) x 
 
 ## Vorstellung des Praxisprojekts
@@ -73,12 +73,12 @@ FEHLT (to do)
 ### Sentimentanalyse 
 Die Sentimentanalyse wurde anhand von 30 Twitter-Beiträgen evaluiert. Diese bestanden aus jeweils 10 positiven, 10 negativen und 10 neutralen Tweets, die als "Goldstandard" festgelegt wurden.
 
-#### Ergebnis
-- **10 von 10 negativen Beiträgen wurden erkannt**
-- **10 von 10 positiven Beiträgen wurden erkannt**
--  8 von 10 neutrale Beiträgen wurden als positiv erkannt
--  1 von 10 von neutralen Beiträgen hat keine Übereinstimmung mit unserem Lexikon
--  1 von 10 von neutralen Beiträgen wurde als negativ erkannt
+- Ergebnis:
+  - **10 von 10 negativen Beiträgen wurden erkannt**
+  - **10 von 10 positiven Beiträgen wurden erkannt**
+  -  8 von 10 neutrale Beiträgen wurden als positiv erkannt
+  -  1 von 10 von neutralen Beiträgen hat keine Übereinstimmung mit unserem Lexikon
+  -  1 von 10 von neutralen Beiträgen wurde als negativ erkannt
 
 Eine mögliche Erklärung für die Problematik bei neutralen Beiträgen wäre, dass diese Berichterstattungen und somit teilweise auch Zitate beinhalten. So könnte die neutrale Natur der Beiträge durch diese emotional beeinflusst sein.
 
