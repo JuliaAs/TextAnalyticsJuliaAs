@@ -2,7 +2,7 @@
 ## Inhaltsangabe 
 - [Ablauf der Gruppenarbeit](#ablauf-der-gruppenarbeit) 
 - [Gruppeninterne Vorgehensweise](#gruppeninterne-vorgehensweise)
-  - [Projektmanangment](#projektmanagment) 
+  - [Projektmanangement](#projektmanagement) 
   - [Anforderungsanalyse](#anforderungsanalyse) 
   - [Mock-Ups](#mock-ups)
   
@@ -16,7 +16,7 @@ Die in der Abschlusspräsentation genannten Kritikpunkte hat man bis zur Abgabe 
 
 ## Gruppeninterne Vorgehensweise
 
-### Projektmanagment 
+### Projektmanagement 
 Von Anfang an hat die Gruppe versucht sich beim Projektmanagement an den Werte der agile Softwareentwicklung zu orientieren:
 - **Individuen und Interaktionen** vor Tools
 - **Funktionierende Programme** vor ausführliche Spezifikation
