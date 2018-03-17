@@ -56,7 +56,13 @@ _**Der zu analysierende Datensatz ist in dieser Version vorgegeben. Eine Option 
 Der Nutzer ruft die Startseite der Anwendung auf und sieht ein Startbutton. Nachdem dieser angeklickt worden ist, startet die Analyse des integrieten Datensatzes. Es folgt ein Output der die Häufigkeitsanalyse der häufigsten fünf Wörter/Wortkombinationen als Uni-, Bi- sowie Trigram und eine Sentimentanalyse der Beiträge beinhaltet. 
 
 ## Output
-Die Outputs der verschiedenen Analysen der Anwendung ![finden Sie hier](Output). 
+Die Anwendung gibt nach den Analysen vier verschiedene Outputs aus:
+- Häufigkeitsanalyse
+  - ![Unigram](Unigram.png)
+  - ![Bigram](Bigram.png)
+  - ![Trigram](Trigram.png)
+
+Eine Übersicht aller Outputs der Anwendung ![finden Sie zusätzlich hier](Output). 
 
 ## Evaluation 
 Im Folgenden wird die Evaluation der [Häufigkeitsanalyse](#häufigkeitsanalyse), die [Sentimentsanalyse](#sentimentanalyse) und die [grafische Ausgabe](#grafische-ausgabe) der Anwendung vorgestellt.
