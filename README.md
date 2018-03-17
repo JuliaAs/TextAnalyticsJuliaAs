@@ -10,8 +10,8 @@
    - [Verwendung](#verwendung)
 - [Output](#output)
 - [Evaluation](#evaluation) x
-   - [Häufigkeitsanalyse](#häufigkeitsanalyse) x
-   - [Sentimentanalyse](#sentimentanalyse)
+   - [Häufigkeitsanalyse](#häufigkeitsanalyse) 
+   - [Sentimentanalyse](#sentimentanalyse) x
    - [Quellen](#quellen)
 - [Fazit](#fazit) x 
 
