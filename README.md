@@ -62,16 +62,16 @@ Platz für SA Erklärung? (to do?)
 FEHLT (to do) 
 
 ## Evaluation 
-Im Folgenden wurde (die Häufigkeitsanalyse) sowie die Sentimentsanalyse der Anwendung.
+Im Folgenden wird (die Häufigkeitsanalyse), die Sentimentsanalyse (und die grafische Ausgabe) der Anwendung.
 
 ### Häufigkeitsanalyse
 FEHLT (to do)
 
-#### Ergebnis
+- Ergebnis:
 FEHLT (to do)
 
 ### Sentimentanalyse 
-Die Sentimentanalyse wurde anhand von 30 Twitter-Beiträgen evaluiert. Diese bestanden aus jeweils 10 positiven, 10 negativen und 10 neutralen Tweets, die als "Goldstandard" festgelegt wurden.
+Die Sentimentanalyse wird anhand von 30 Twitter-Beiträgen evaluiert. Diese bestehen aus jeweils 10 positiven, 10 negativen und 10 neutralen Tweets, die als "Goldstandard" festgelegt werden.
 
 - Ergebnis:
   - **10 von 10 negativen Beiträgen wurden erkannt**
@@ -79,10 +79,15 @@ Die Sentimentanalyse wurde anhand von 30 Twitter-Beiträgen evaluiert. Diese bes
   -  8 von 10 neutrale Beiträgen wurden als positiv erkannt
   -  1 von 10 von neutralen Beiträgen hat keine Übereinstimmung mit unserem Lexikon
   -  1 von 10 von neutralen Beiträgen wurde als negativ erkannt
-
-Eine mögliche Erklärung für die Problematik bei neutralen Beiträgen wäre, dass diese Berichterstattungen und somit teilweise auch Zitate beinhalten. So könnte die neutrale Natur der Beiträge durch diese emotional beeinflusst sein.
-
 Das Ergebnis variiert teilweise deutlich je nach Häufigkeit der Lexikonwörter im Text. Teilweise resultiert ein deutlicher Score von -(2.01) - (-0.7) oder 0.2 – 3.5.
+
+Die Anwendung erkennt die positiven und negativen Beiträge fehlerfrei. Die neutralen Beiträge stellen ein Problem bei der Analyse dar. Eine mögliche Erklärung für die Problematik bei neutralen Beiträgen wäre, dass diese Berichterstattungen und somit teilweise auch Zitate beinhalten. So könnte die Neutralität der Beiträge durch die Emotionalität in den Zitaten oder Formulierungen beeinflusst sein.
+
+### Grafische Ausgabe
+FEHLT (to do)
+
+- Ergebnis:
+FEHLT (to do)
 
 ### Quellen
 - Das genutzte Lexikon zur Evaluation der Sentinmentanalyse (SemEval-2015 English Twitter Sentimen Lexicon, created using Best-Worst Scaling(aka MaxDiff)) [finden Sie hier](http://saifmohammad.com/WebPages/lexicons.html)
