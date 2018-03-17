@@ -97,7 +97,7 @@ FEHLT (to do)
 FEHLT (to do)
 
 ### Quellen
-- Das genutzte Lexikon zur Evaluation der Sentinmentanalyse (SemEval-2015 English Twitter Sentimen Lexicon, created using Best-Worst Scaling(aka MaxDiff)) [finden Sie hier](http://saifmohammad.com/WebPages/lexicons.html)
+- Das genutzte Lexikon zur Evaluation der Sentinmentanalyse (SemEval-2015 English Twitter Sentimen Lexicon, created using Best-Worst Scaling(aka MaxDiff)) [finden Sie hier](http://saifmohammad.com/WebPages/lexicons.html).
 
 ## Fazit
 Im Folgenden finden Sie ein Résumé über die Anwendung:
