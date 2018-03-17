@@ -63,7 +63,7 @@ Platz für SA Erklärung? (to do?)
 FEHLT (to do) 
 
 ## Evaluation 
-Im Folgenden wird die [Häufigkeitsanalyse](#häufigkeitsanalyse), die [Sentimentsanalyse](#sentimentanalyse) und [die grafische Ausgabe](#grafische-ausgabe) der Anwendung evaluiert.
+Im Folgenden wird die [Häufigkeitsanalyse](#häufigkeitsanalyse), die [Sentimentsanalyse](#sentimentanalyse) und die [grafische Ausgabe](#grafische-ausgabe) der Anwendung evaluiert.
 
 ### Häufigkeitsanalyse
 Die Häufigkeitsanalyse wird auf den integrieten Twitter-Datensatz evaluiert. Sie erfolgt auf Tokenbasis. d.h. die Erkennungsrate der Tokens ist 100%. Es wurden vor dem Zählen der Tokens einige Filter angewendet, um unnötige Zeichen zu entfernen:
