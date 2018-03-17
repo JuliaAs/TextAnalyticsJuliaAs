@@ -17,7 +17,7 @@ Die in der Abschlusspräsentation genannten Kritikpunkte hat man bis zur Abgabe 
 ## Gruppeninterne Vorgehensweise
 
 ### Projektmanagement 
-Von Anfang an hat die Gruppe versucht sich beim Projektmanagement an den Werte der agile Softwareentwicklung zu orientieren:
+Von Anfang an hat die Gruppe versucht sich beim Projektmanagement an den Werte der agilen Softwareentwicklung zu orientieren:
 - **Individuen und Interaktionen** vor Tools
 - **Funktionierende Programme** vor ausführliche Spezifikation
 - **Stetige Zusammenarbeit mit dem Auftraggeber/ den Leitern**
