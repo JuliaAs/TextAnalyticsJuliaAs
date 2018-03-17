@@ -39,7 +39,7 @@ Kernfunktionen der Anwendung mit _Beispiel aus der Krisenkommunikation_:
 3.	Zuteilung der Tonalität den häufigsten Wörtern (positiv, neutral, negativ)
       - _Sind die Beiträge eher negativ (Wut, Trauer), positiv (Erleichterung) oder neutral (Berichterstattung) => Emotionsverlagerung_  
 
-Damit lassen sich Aussagen über den zeitlichen Verlauf von Online-Kommunikation über die Relevanz eines Themas treffen, aufgrund der Häufigkeit der Wörter in Social Media-Beiträgen
+Damit lassen sich Aussagen über den zeitlichen Verlauf von Online-Kommunikation über die Relevanz eines Themas treffen, aufgrund der Häufigkeit der Wörter in Social Media-Beiträgen.
 
 ## Anleitung der Anwendung 
 Im Folgenden finden Sie eine Anleitung zur Einrichtung, Konfiguration und Verwendung der Anwendung.
@@ -63,13 +63,18 @@ Platz für SA Erklärung? (to do?)
 FEHLT (to do) 
 
 ## Evaluation 
-Im Folgenden wird (die Häufigkeitsanalyse), die Sentimentsanalyse (und die grafische Ausgabe) der Anwendung.
+Im Folgenden wird die Häufigkeitsanalyse, die Sentimentsanalyse (und die grafische Ausgabe) der Anwendung.
 
 ### Häufigkeitsanalyse
-FEHLT (to do)
+Die Häufigkeitsanalyse wird auf den integrieten Twitter-Datensatz evaluiert. Sie erfolgt auf Tokenbasis. d.h. die Erkennungsrate der Tokens ist 100%. Es wurden vor dem Zählen der Tokens einige Filter angewendet, um unnötige Zeichen zu entfernen:
+
+- **Trailingcharacter Remover**, um z.b. _Punkte, Komma, und Sonderzeichen zu entfernen_.
+- **Stopwordremover**, um Wörter zu entfernen, die keine Relevanz bei der Häufikeitssuche habe z.B. _the, it, a, of_.
+- **Regextokenfilter**, um Sonderzeichen zu entfernen, die keine Buchstaben sind, da wir zwischenzeitlich Probleme mit der Kodierung von Sonderzeichen hatten.
 
 - Ergebnis:
-FEHLT (to do)
+Die Häufigkeitsanalyse zeigt die fünf häufigsten Wörter der Beiträge an. Die grafische Ausgabe können Sie hier sehen (VERLINKUNG). Da es Probleme mit der Kodierung von Sonderzeichen gab, hat man sich für den Regextokenfilter entschieden. Eine 
+Problematik der Analyse ist zum Beispiel: Sind Wörter häufig falsch geschrieben, werden sie getrennt zu den Wörtern, die richtig geschrieben bzw. gemeint wurden gezählt.
 
 ### Sentimentanalyse 
 Die Sentimentanalyse wird anhand von 30 Twitter-Beiträgen evaluiert. Diese bestehen aus jeweils 10 positiven, 10 negativen und 10 neutralen Tweets, die als "Goldstandard" festgelegt werden.
