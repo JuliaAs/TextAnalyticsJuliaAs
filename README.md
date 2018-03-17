@@ -10,7 +10,7 @@
    - [Verwendung](#verwendung)
 - [Output](#output)
 - [Evaluation](#evaluation) x
-   - [Häufigkeitsanalyse](#häufigkeitsanalyse) 
+   - [Häufigkeitsanalyse](#häufigkeitsanalyse) x
    - [Sentimentanalyse](#sentimentanalyse) x
    - [Grafische Ausgabe](#grafische-ausgabe)
    - [Quellen](#quellen)
@@ -42,7 +42,7 @@ Kernfunktionen der Anwendung mit _Beispiel aus der Krisenkommunikation_:
 Damit lassen sich Aussagen über den zeitlichen Verlauf von Online-Kommunikation über die Relevanz eines Themas treffen, aufgrund der Häufigkeit der Wörter in Social Media-Beiträgen.
 
 ## Anleitung der Anwendung 
-Im Folgenden finden Sie eine Anleitung zur Einrichtung, Konfiguration und Verwendung der Anwendung.
+Im Folgenden finden Sie eine Anleitung zur [Einrichtung](#einrichtung), [Konfiguration](#konfiguration) und [Verwendung](#verwendung) der Anwendung.
 
 ### Einrichtung
 FEHLT (to do)
