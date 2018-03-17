@@ -3,15 +3,12 @@
 ## Inhaltsangabe 
 - [Vorstellung des Praxisprojekts](#vorstellung-des-praxisprojekts) x
    - [Ablauf der Projektarbeit](#ablauf-der-projektarbeit) x
-   - [Ziel der Anwendung](#ziel-der-anwendung) x 
-   
+   - [Ziel der Anwendung](#ziel-der-anwendung) x   
 - [Anleitung der Anwendung](#anleitung-der-anwendung)
    - [Einrichtung](#einrichtung)
    - [Konfiguration](#konfiguration)
    - [Verwendung](#verwendung)
-   
 - [Output](#output)
-
 - [Evaluation](#evaluation) x
    - [Häufigkeitsanalyse](#häufigkeitsanalyse) x
    - [Sentimentanalyse](#sentimentanalyse) x
