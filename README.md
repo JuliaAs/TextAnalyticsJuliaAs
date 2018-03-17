@@ -1,19 +1,19 @@
 # Dokumentation des Praxisprojekts
 
 ## Inhaltsangabe 
-- [Vorstellung des Praxisprojekts](#vorstellung-des-Praxisprojekts)
-   - [Ablauf der Projektarbeit](#ablauf-der-projektarbeit)
-   - [Ziel der Anwendung](#ziel-der-anwendung)
+- [Vorstellung des Praxisprojekts](#vorstellung-des-Praxisprojekts) x
+   - [Ablauf der Projektarbeit](#ablauf-der-projektarbeit) x
+   - [Ziel der Anwendung](#ziel-der-anwendung) x 
 - [Anleitung der Anwendung](#anleitung-der-anwendung)
    - [Einrichtung](#einrichtung)
    - [Konfiguration](#konfiguration)
    - [Verwendung](#verwendung)
 - [Output](#output)
-- [Evaluation](#evaluation)
-   - [Erläuterung](#erläuterung)  
+- [Evaluation](#evaluation) x
+   - [Häufigkeitsanalyse](#häufigkeitsanalyse) x
    - [Goldstandard](#goldstandard)
    - [Ergebnis](#ergebnis)
-- [Fazit](#fazit)
+- [Fazit](#fazit) x 
 
 ## Vorstellung des Praxisprojekts
 Die Aufgabe des Praxisprojekts ist es eine **Anwendung zur Analyse von textbasierter Sprache** zu implementieren. Dafür teilten sich die Teilnehmer des Praxisprojekts in dreier Gruppen auf und überlegten sich eine Problemstellung, die sie mithilfe ihrer Anwendung lösen wollten.
