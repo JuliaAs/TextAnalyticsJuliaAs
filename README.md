@@ -12,8 +12,7 @@
 - [Evaluation](#evaluation) x
    - [Häufigkeitsanalyse](#häufigkeitsanalyse) x
    - [Sentimentanalyse](#sentimentanalyse) x
-   - [Grafische Ausgabe](#grafische-ausgabe)
-   
+   - [Grafische Ausgabe](#grafische-ausgabe)  
 - [Fazit](#fazit) x 
 
 ## Vorstellung des Praxisprojekts
