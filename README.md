@@ -61,6 +61,7 @@ Die Anwendung gibt nach den Analysen vier verschiedene Outputs aus:
   - Unigram
   - Bigram
   - Trigram
+- Sentimentanalyse 
 
 Eine Übersicht aller Outputs der Anwendung in grafischer Form ![finden Sie zusätzlich hier](Output). 
 
