@@ -97,13 +97,12 @@ FEHLT (to do)
 ## Fazit
 Im Folgenden finden Sie ein Resümee über die Anwendung:
 - [x] User-Interface für die Anwendung
-- [x] Häufigkeitsanalyse für den Twitter-Datensatz
+- [x] Häufigkeitsanalyse der Wörter in den Twitter-Beiträgen
 - [x] Zusammenhang von Häufigkeit der Wörter und der Zeit des Postings
 - [x] Grafische Ausgabe der Häufigkeitsanalyse 
-- [x] Sentimentanalyse 
+- [x] Sentimentanalyse der Twitter- Beiträge
 - [x] Ausgabe der Ergebnisse der Sentimentanalyse 
-- [ ] Kommunikation zwischen dem Interface und den Funktionalitäten 
 
-Die Anwendung läuft nicht fehlerfrei. Es gibt Kommunikationsprobleme zwischen der HTML-Seite und dem Java Code. Die HTML-Seite speichert die eingebenden Daten nicht korrekt ab und übergibt diese  nicht an die Output-Seite. Außerdem gibt es auf dem User-Interface ist kein Eingabefeld für die Parameter der Sentimentanalyse und somit kann diese Daten nur auf der Funktionsebene ausgeben. Generell steckt die Sentinemtanalyse noch in einem frühen Stadium der Entwicklung. Dadurch ist diese nur eingeschränkt nutzbar. An dieser Stelle sei aber zu erwähnen, dass die Sentinemtanalyse aufgrund eines Missverständnisses erst zu einem späteren Zeitpunkt als zusätzliche Funktionalität dazu gekommen ist.
+Die Funktionalitäten der Anwendung sind auf die Häufigkeits- und Sentimentanalyse beschränkt. Das Programm unterstützt in der jetzigen Version keine Arbeit mit externen Datensätze und der Nutzer kann keine Einstellungen an der Anwendung vornehmen. Dies ist unter anderem der Fall, da die geplante Einstellung des Zeitraums der zu analysierenden Beiträge zu Problemen bei der Kodierung geführt hat und somit wegfiel. Bei der Evaluation zeigte die Häufigkeitsanalyse außerdem eine Problematik mit falsch geschriebenen Wörtern und  die Sentimentanalyse eine Schwäche für Neutralität in den Beiträgen.     
 
-Nichtsdestotrotz sind die elementaren Funktionalitäten der Anwendung vorhanden und funktionsfähig. Es gibt ein User-Interface, die Häufigkeitsanalyse gibt die häufigsten Wörter im Zusammenhang des Zeitraums aus und diese werden vom Programm grafisch ausgegeben. Die Kritik der Abschlusspräsentation wurden umgesetzt und die Anwendung stellt mit ein paar Problemen das dar, was die Gruppe sich zu Beginn des Praxisprojekts vorgestellt hatte.  
+Die FUnktionalitäten zeigen jedoch keine größere Fehleranfälligkeit. Es gibt ein **User-Interface**, die **Häufigkeitsanalyse** sucht die häufigsten Wörter/Wortkombinationen im Zusammenhang der jeweiligen Zeitangaben der Beiträge, gibt diese grafisch als **Uni-, Bi- und Trigram** aus und die **Sentimentanalyse** lässt Schlüsse über die Tonalität der Beiträge ziehen. Die Kritik der Abschlusspräsentation wurden umgesetzt 
