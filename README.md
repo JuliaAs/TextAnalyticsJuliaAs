@@ -58,7 +58,7 @@ Der Nutzer ruft die Startseite der Anwendung auf und sieht ein Startbutton. Nach
 ## Output
 Die Anwendung gibt nach den Analysen vier verschiedene Outputs aus:
 - Häufigkeitsanalyse
-  - ![Unigram](Unigram)
+  - ![Unigram](Unigram.png)
   - ![Bigram](Bigram)
   - ![Trigram](Trigram)
 
