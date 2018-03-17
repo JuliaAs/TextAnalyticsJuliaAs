@@ -13,7 +13,6 @@
    - [Häufigkeitsanalyse](#häufigkeitsanalyse) x
    - [Sentimentanalyse](#sentimentanalyse) x
    - [Grafische Ausgabe](#grafische-ausgabe)
-   - [Quellen](#quellen)
 - [Fazit](#fazit) x 
 
 ## Vorstellung des Praxisprojekts
