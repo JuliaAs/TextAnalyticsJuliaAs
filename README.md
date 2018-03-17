@@ -64,17 +64,28 @@ FEHLT (to do)
 ## Evaluation 
 Im Folgenden wurde (die Häufigkeitsanalyse) sowie die Sentimentsanalyse der Anwendung.
 
-### Erläuterung zur Sentimentanalyse 
+### Häufigkeitsanalyse
+FEHLT (to do)
+
+#### Ergebnis
+FEHLT (to do)
+
+### Sentimentanalyse 
 Die Sentimentanalyse wurde anhand von 30 Twitter-Beiträgen evaluiert. Diese bestanden aus jeweils 10 positiven, 10 negativen und 10 neutralen Tweets, die als "Goldstandard" festgelegt wurden.
 
 #### Ergebnis
-bla bla
+**- 10 von 10 negativen Beiträgen wurden erkannt
+- 10 von 10 positiven Beiträgen wurden erkannt**
+-  8 von 10 neutrale Beiträgen wurden als positiv erkannt
+-  1 von 10 von neutralen Beiträgen hat keine Übereinstimmung mit unserem Lexikon
+-  1 von 10 von neutralen Beiträgen wurde als negativ erkannt
 
-### Erläuterung zur Häufigkeitsanalyse
-FEHLT (to do)
+Eine mögliche Erklärung für die Problematik bei neutralen Beiträgen wäre, dass diese Berichterstattungen und somit teilweise auch Zitate beinhalten. So könnte die neutrale Natur der Beiträge durch diese emotional beeinflusst sein.
 
-#### Ergebnis 
+Das Ergebnis variiert teilweise deutlich je nach Häufigkeit der Lexikonwörter im Text. Teilweise resultiert ein deutlicher Score von -(2.01) - (-0.7) oder 0.2 – 3.5.
 
+### Quellen
+- Das genutzte Lexikon zur Evaluation der Sentinmentanalyse (SemEval-2015 English Twitter Sentimen Lexicon, created using Best-Worst Scaling(aka MaxDiff)) [finden Sie hier](http://saifmohammad.com/WebPages/lexicons.html)
 
 ## Fazit
 Im Folgenden finden Sie ein Résumé über die Anwendung:
