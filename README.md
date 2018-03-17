@@ -68,12 +68,13 @@ Im Folgenden wurde (die Häufigkeitsanalyse) sowie die Sentimentsanalyse der Anw
 Die Sentimentanalyse wurde anhand von 30 Twitter-Beiträgen evaluiert. Diese bestanden aus jeweils 10 positiven, 10 negativen und 10 neutralen Tweets, die als "Goldstandard" festgelegt wurden.
 
 #### Ergebnis
+bla bla
 
 ### Erläuterung zur Häufigkeitsanalyse
 FEHLT (to do)
 
-### Ergebnis 
-FEHLT (to do)
+#### Ergebnis 
+
 
 ## Fazit
 Im Folgenden finden Sie ein Résumé über die Anwendung:
