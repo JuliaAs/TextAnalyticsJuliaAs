@@ -1,0 +1,19 @@
+header img {
+    max-height: 5cm;
+}
+
+body img {
+  max-width: 8cm;
+}
+
+dialog{
+  text-align: center;
+}
+
+#main_video{
+  width: 50%;
+}
+
+nav{
+  color: #66c2ff;
+}

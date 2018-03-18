@@ -27,8 +27,8 @@ public class MySentiment extends JCasAnnotator_ImplBase{
 	@ConfigurationParameter(name = PARAM_MODEL_LOCATION, mandatory = true)
 	private File lexicon;
 	
-	private List<String> lines;
-	private int currentLine;
+	private List<String> lines1;
+	private int currentLine1;
 	private Map <String, Float> hm;
 	
 	@Override
@@ -36,13 +36,15 @@ public class MySentiment extends JCasAnnotator_ImplBase{
 		        throws ResourceInitializationException
 		    {
 		        super.initialize(context);
-		        System.out.println("MySentiment initialize");
+		        /**
+		         * read lexicon split at space and puts into lexicon array
+		         */
 		        hm = new HashMap<String, Float>();
 		        try {
-					lines = FileUtils.readLines(lexicon);
-					currentLine=0;
+					lines1 = FileUtils.readLines(lexicon);
+					currentLine1=0;
 					//System.out.println("initialize " + lines.size());
-					for(String str: lines) {
+					for(String str: lines1) {
 						//System.out.println("initialize : for loop");
 						String[] parts = str.split("\\s+");
 						hm.put(parts[1],Float.parseFloat(parts[0]));
@@ -61,26 +63,24 @@ public class MySentiment extends JCasAnnotator_ImplBase{
 
 	@Override
 	public void process(JCas jcas) throws AnalysisEngineProcessException {
-		System.out.println("MySentiment process");
-		//System.out.println("currentline " + currentLine);
-		String[] parts = lines.get(currentLine).split("\\s+");
-		//System.out.println("length " + parts.length);
-		//System.out.println(parts[0]);
-		//System.out.println(parts[1]);
+		
+		
+		String[] parts = lines1.get(currentLine1).split("\\s+");
+		
 		float sentimentscore = 0;
 		
 		//iterate through each token
 		for(Token t : JCasUtil.select(jcas, Token.class)){
 			String tok = t.getCoveredText().toLowerCase();						
-			//System.out.println("for schleife " + tok);
+			
 			
 			//inner loop checks if lexicon contains a word / token that equals to a token
 			for(Map.Entry<String, Float> str:hm.entrySet()) {
-				//System.out.println("process for schleife innere " + str.getKey());
 				
-				//if lexicon fings match the value is added to sentimentscore 
+				
+				//if lexicon finds match the value is added to sentimentscore 
 				if(tok.equals(str.getKey())) {
-					//System.out.println("EQUALS " + tok + " " + str.getKey() + str.getValue());
+					
 					sentimentscore +=str.getValue();
 					
 				}
@@ -92,7 +92,7 @@ public class MySentiment extends JCasAnnotator_ImplBase{
 			mysa.addToIndexes();
 			
 		}
-		currentLine++;
+		currentLine1++;
 	}	
 
 }

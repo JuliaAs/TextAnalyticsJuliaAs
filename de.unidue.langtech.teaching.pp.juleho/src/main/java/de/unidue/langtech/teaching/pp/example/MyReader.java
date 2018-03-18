@@ -27,6 +27,7 @@ import de.tudarmstadt.ukp.dkpro.core.api.io.ResourceCollectionReaderBase.Resourc
 import de.unidue.langtech.teaching.pp.type.GoldLanguage;
 import de.unidue.langtech.teaching.pp.type.MySentimentScore;
 import de.unidue.langtech.teaching.pp.type.TweetTimeStamp;
+import de.unidue.langtech.teaching.type.MyRawTweet;
 import de.unidue.langtech.teaching.type.RawTweet;
 
 public class MyReader extends JCasCollectionReader_ImplBase {
@@ -92,12 +93,14 @@ public class MyReader extends JCasCollectionReader_ImplBase {
 	
 	@Override
 	public void getNext(JCas jcas) throws IOException, CollectionException {
-		// TODO Auto-generated method stub
 		
-        //String[] parts = lines.get(currentLine).split("#");
 		String line = lines.get(currentLine);
+		
+		//check for valid lineformat
+		if (!lines.get(currentLine).contains(CREATE_MARKER)) {
+        throw new IOException("Wrong line format: " + lines.get(currentLine));
+    }
 		String xt = getExtract(line, CREATE_MARKER, MARKER_END);
-		//String[] parts;
     
         TweetTimeStamp ts = new TweetTimeStamp(jcas);
         ts.setTweetPostTime(xt);
@@ -107,7 +110,7 @@ public class MyReader extends JCasCollectionReader_ImplBase {
         String extract = getExtract(line, TEXT_MARKER, MARKER_END);
         
      // annotate raw-tweet in an own type we 
-        RawTweet raw = new RawTweet(jcas);
+        MyRawTweet raw = new MyRawTweet(jcas);
         raw.setRawTweet(extract);
         raw.addToIndexes();
 
@@ -124,13 +127,7 @@ public class MyReader extends JCasCollectionReader_ImplBase {
      
 	}
 	
-	private boolean containsValidFields(String nextLine)
-    {
-        // we test for a 'text'-information and the 'created_at' information if we find both we
-        // conclude that a line is an actual twitter message
-        return nextLine.contains(CREATE_MARKER) && nextLine.contains(TEXT_MARKER);
-    }
-	
+	//get text between markers	
 	static String getExtract(String rawText, final String START, final String END)
     {
         int idxStart = rawText.indexOf(START);

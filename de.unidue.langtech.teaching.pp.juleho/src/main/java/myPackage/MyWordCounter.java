@@ -18,8 +18,15 @@ import de.unidue.langtech.teaching.pp.type.TweetTimeStamp;
 public class MyWordCounter extends JCasAnnotator_ImplBase{
 	
 	private static FrequencyDistribution<String> fd;
+	static FrequencyDistribution<String> fd1;
+	static FrequencyDistribution<String> fd2;
 	
-	
+	List<String> mostBigrams;
+	List<String> mostTrigrams;
+	List<String> sentence;
+	private String[] sentenceArray;
+	static HashMap<String, Integer>hashMapBigram;
+	static HashMap<String, Integer>hashMapTrigram;
 	private static String name0;
 	private static String name1;
 	private static String name2;
@@ -27,12 +34,12 @@ public class MyWordCounter extends JCasAnnotator_ImplBase{
 	private static String name4;	
 	
 	
-	public static List<String> mostFrequentSamples;
+	public static List<String> mostUnigrams;
 	
 	public void initialize(UimaContext context)
             throws ResourceInitializationException
             {
-		System.out.println("MyWordCounter");
+		
 			super.initialize(context);			
 			fd = new FrequencyDistribution<String>();			
 			name0=new String();
@@ -40,6 +47,13 @@ public class MyWordCounter extends JCasAnnotator_ImplBase{
 			name2=new String();
 			name3=new String();
 			name4=new String();
+			fd1 = new FrequencyDistribution<String>();
+			fd2 = new FrequencyDistribution<String>();
+			sentence= new ArrayList<String>();			
+			mostBigrams = new ArrayList<String>();
+			mostTrigrams = new ArrayList<String>();
+			hashMapBigram = new HashMap<String, Integer>();
+			hashMapTrigram = new HashMap<String, Integer>();
             }
 
 	@Override
@@ -49,21 +63,67 @@ public class MyWordCounter extends JCasAnnotator_ImplBase{
 				for(Token t : JCasUtil.select(jcas, Token.class)){
 					String tok = t.getCoveredText().toLowerCase();						
 					fd.addSample(tok, 1);
-					
-				}		
+					sentence.add(tok);
+				}
+				//create an sentence array to access tokens by index
+				sentenceArray=new String[sentence.size()];
+				//cast list to array
+				sentenceArray=sentence.toArray(sentenceArray);
+				
+				/**
+				 * iterate through all words of sentence
+				 * check if next word is in boundary of array lenght
+				 * if so get current word and next word and add to bigram
+				 * or next word for trigram
+				 */
+				for(int i = 0; i<sentenceArray.length;i++) {
+					if(i+1<sentenceArray.length) {
+						String bigram = sentenceArray[i]+" " +sentenceArray[i+1];
+						fd1.addSample(bigram,1);
+							
+				}
+					if(i+2<sentenceArray.length) {
+						String trigram = sentenceArray[i]+" " + sentenceArray[i+1] + " " + sentenceArray[i+2];
+						fd2.addSample(trigram,1);
+						
+					}
+			}
+			//clear old sentence
+			sentence.clear();
 	}
 	
 	public void collectionProcessComplete() {
-		mostFrequentSamples = fd.getMostFrequentSamples(5);
-		name0=mostFrequentSamples.get(0);
-		name1=mostFrequentSamples.get(1);
-		name2=mostFrequentSamples.get(2);
-		name3=mostFrequentSamples.get(3);
-		name4=mostFrequentSamples.get(4);
+		mostUnigrams = fd.getMostFrequentSamples(5);
+		name0=mostUnigrams.get(0);
+		name1=mostUnigrams.get(1);
+		name2=mostUnigrams.get(2);
+		name3=mostUnigrams.get(3);
+		name4=mostUnigrams.get(4);
+		mostBigrams=fd1.getMostFrequentSamples(5);
+		mostTrigrams=fd2.getMostFrequentSamples(5);
+		
+		//get 5 most frequent bigrams and put in new hashmap
+		for(int i = 0; i<=4;i++) {
+			hashMapBigram.put(mostBigrams.get(i),(int) fd1.getCount(mostBigrams.get(i)));
+		}
+		//get 5 most frequent trigrams and put in new hashmap
+		for(int i = 0; i<=4;i++) {
+			hashMapTrigram.put(mostTrigrams.get(i),(int) fd2.getCount(mostTrigrams.get(i)));
+		}
+		
+		
 	}
 	
 	public static List<String> getMostFrequentSamples(){
-		return mostFrequentSamples;
+		return mostUnigrams;
+	}
+	
+	public static  HashMap<String,Integer> getMostBigrams() {
+		return hashMapBigram;
+	}
+	
+	public static  HashMap<String,Integer> getMostTrigrams() {
+		return hashMapTrigram;
 	}
 	
 	public static String getName0() {

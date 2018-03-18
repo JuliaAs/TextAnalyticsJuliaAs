@@ -1,6 +1,8 @@
 package Serv;
 
 import java.io.IOException;
+import java.util.Map;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -41,22 +43,10 @@ public class TestServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		
 		//doGet(request, response);
-		System.out.println("dopost testservlet");
-		/**
-		try {
-			Starter start = new Starter();
-		} catch (ResourceInitializationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (UIMAException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}*/
 		
-		
-		
+				 
 		try {
 			MyRun run = new MyRun();
 			run.runrun();
@@ -67,6 +57,19 @@ public class TestServlet extends HttpServlet {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		String pathToUnigram = MyRun.getdateipfad();
+		String pathToBigram = MyRun.getBigramPath();
+		String pathToTrigram = MyRun.getTrigramPath();
+		Map<String,Integer> bigramResults = MyRun.getBigramResults();
+		Map<String,Integer> trigramResults = MyRun.getTrigramResults();
+		Map<String,Float> sentimentresults = MyRun.getSentimentResults();
+		request.setAttribute("unigram", pathToUnigram);
+		request.setAttribute("sentiment", sentimentresults);
+		request.setAttribute("bigrampath", pathToBigram);
+		request.setAttribute("trigrampath", pathToTrigram);
+		request.setAttribute("bigram", bigramResults);
+		request.setAttribute("trigram", trigramResults);
+		request.getRequestDispatcher("result.jsp").forward(request, response);
 	}
 
 }

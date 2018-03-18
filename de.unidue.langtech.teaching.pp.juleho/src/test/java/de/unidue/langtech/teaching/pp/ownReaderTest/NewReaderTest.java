@@ -14,6 +14,7 @@ import org.apache.uima.jcas.JCas;
 import org.junit.Test;
 
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
+import de.unidue.langtech.teaching.pp.example.MyReader;
 import de.unidue.langtech.teaching.pp.type.GoldLanguage;
 
 public class NewReaderTest
@@ -187,8 +188,8 @@ public class NewReaderTest
     private CollectionReaderDescription getReader()
         throws Exception
     {
-        return CollectionReaderFactory.createReaderDescription(NewReader.class,
-                NewReader.PARAM_INPUT_FILE, "src/test/resources/test/inputNewFormat.txt");
+        return CollectionReaderFactory.createReaderDescription(MyReader.class,
+                MyReader.PARAM_INPUT_FILE, "src/test/resources/test/readertest.txt");
     }
 
 }

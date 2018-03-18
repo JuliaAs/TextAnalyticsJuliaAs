@@ -1,7 +1,10 @@
 package de.unidue.langtech.teaching.pp.util;
 
 import org.jfree.chart.ChartPanel;
+import org.jfree.chart.ChartUtilities;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -33,15 +36,19 @@ public class LineChart_AWT extends ApplicationFrame {
 	public static String s2;
 	public static String s3;
 	public static String s4;
-	static String applicationTitle = "dididdd";
-	String chartTitle = "Häufigkeiten der Wörter";
+	static String applicationTitle = "Unigram";
+	String chartTitle = "Häufigkeiten der Unigramme";
 	private static Set<String> str;
+	private static String filePath;
+	
 
 	public  LineChart_AWT() {
 		super(applicationTitle);
 		
 	}
-	public  LineChart_AWT(String s, String string, String string2, String string3, String string4, TreeMap<String, Integer> tm0, TreeMap<String, Integer> tm1, TreeMap<String, Integer> tm2, TreeMap<String, Integer> tm3, TreeMap<String, Integer> tm4) {
+	public  LineChart_AWT(String s, String string, String string2, String string3, String string4, TreeMap<String, Integer> tm0, 
+			TreeMap<String, Integer> tm1, TreeMap<String, Integer> tm2, TreeMap<String, Integer> tm3, TreeMap<String, Integer> tm4
+			) {
 		super(applicationTitle);
 		s0=s;
 		s1=string;
@@ -53,6 +60,7 @@ public class LineChart_AWT extends ApplicationFrame {
 		t2=tm2;
 		t3=tm3;
 		t4=tm4;
+		
 		str=new TreeSet<>();
 		 JFreeChart lineChart = ChartFactory.createLineChart(
 		         chartTitle,
@@ -62,9 +70,22 @@ public class LineChart_AWT extends ApplicationFrame {
 		         true,true,false);
 		         
 		      ChartPanel chartPanel = new ChartPanel( lineChart );
-		      chartPanel.setPreferredSize( new java.awt.Dimension( 860 , 367 ) );
-		      setContentPane( chartPanel ); 
-	
+		      chartPanel.setPreferredSize( new java.awt.Dimension( 560 , 367 ) );
+		      setContentPane( chartPanel );
+		      
+		      File myFile = new File ("unigram.png");
+		     
+			      try {
+					ChartUtilities.saveChartAsPNG(myFile, lineChart, 640, 480);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}		      
+		     
+		      String sRootPath = new File("").getAbsolutePath();
+		      filePath = sRootPath + "\\unigram.png";
+		     
+		      
 	}
 	
    public LineChart_AWT( String applicationTitle , String chartTitle ) {
@@ -123,25 +144,25 @@ public class LineChart_AWT extends ApplicationFrame {
 	  
 	   for (String elem : t02.keySet()) {
 		   str.add(elem);
-		   System.out.println(elem);		   			
+		   //System.out.println(elem);		   			
 			}
 	   for (String elem : t12.keySet()) {
 		   str.add(elem);
-		   System.out.println(elem);		   			
+		   //System.out.println(elem);		   			
 			}
 	   for (String elem : t22.keySet()) {
 		   str.add(elem);
-		   System.out.println(elem);		   			
+		   //System.out.println(elem);		   			
 			}
 	   for (String elem : t32.keySet()) {
 		   str.add(elem);
-		   System.out.println(elem);		   			
+		   //System.out.println(elem);		   			
 			}
 	   for (String elem : t42.keySet()) {
 		   str.add(elem);
-		   System.out.println(elem);		   			
+		   //System.out.println(elem);		   			
 			}
-	   System.out.println(str);
+	   //System.out.println(str);
 	   
 	  
    }
@@ -186,6 +207,10 @@ public class LineChart_AWT extends ApplicationFrame {
    }
    public void charter() {
 	   System.out.println("charter" + s0);
+   }
+   
+   public String getFilePath() {
+	   return filePath;
    }
    
 }

@@ -1,5 +1,6 @@
 package de.unidue.langtech.teaching.pp.example;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,12 +9,14 @@ import java.util.TreeMap;
 
 import org.apache.uima.UIMAException;
 import org.apache.uima.resource.ResourceInitializationException;
+import org.jfree.chart.ChartUtilities;
 import org.jfree.ui.RefineryUtilities;
 
 import de.unidue.langtech.teaching.pp.example.pipeline.BasicPipeline;
 import de.unidue.langtech.teaching.pp.util.Dater;
 import de.unidue.langtech.teaching.pp.util.LineChart_AWT;
 import de.unidue.langtech.teaching.pp.util.TreeSort;
+import myPackage.MyPipeline;
 
 public class Run {
 	static Dingstest d;
@@ -33,9 +36,7 @@ public class Run {
 		// TODO Auto-generated method stub
 		//d=new Dingstest();
 		
-		bp = new BasicPipeline();
-		
-		runrun();	
+		System.out.println(Run.class.getClassLoader().getResource("unigram.png"));
 
 	}
 	
@@ -131,7 +132,7 @@ public class Run {
 		chart.setN4(SomeOtherExample.getName4());
 		*/
 		
-		
+		String str = "a";
 		chart = new LineChart_AWT(SomeOtherExample.getName0(),SomeOtherExample.getName1(),SomeOtherExample.getName2(),
 				SomeOtherExample.getName3(),SomeOtherExample.getName4(),tm0,tm1,tm2,tm3,tm4);
 		chart.pack( );
