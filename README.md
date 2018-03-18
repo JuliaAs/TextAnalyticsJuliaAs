@@ -81,7 +81,7 @@ $TOMCAT_HOME/conf/tomcat-users.xml einfügen
 
 Start application (in manager): http://localhost:8080/de.unidue.langtech.teaching.pp.juleho/Startseite.html
 
-Trouble Shooting: 
+**Trouble Shooting**: 
 
 server tab → right click → add / remove → choose project 
 
