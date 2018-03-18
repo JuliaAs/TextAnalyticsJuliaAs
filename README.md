@@ -65,14 +65,22 @@ Die Anwendung gibt nach den Analysen vier verschiedene Outputs aus:
 
 Eine Übersicht aller Outputs der Anwendung in grafischer Form ![finden Sie zusätzlich hier](Output). 
 
-Der **Unigram**-Output ist ein Liniendiagramm mit der Überschrift "Häufigkeit der Wörter" und einer x- und einer y-Achse. Auf der y-Achse ist die Anzahl der Wörter vermerkt und auf der x-Achse die lineare Zeit. Die Zuordnung der Zeit findet mithilfe der Zeitangaben der Twitter-Beiträge statt. Jedes der fünf häufigsten Wörter in den Beiträgen + "default", welches eine Eigenart von JFreeCharts darstellt, hat jeweils eine eigene Linienfarbe. Unten ist eine Legende abgebildet, die den Wörtern eine Farbe zuordnet. Durch die Achsenbeschriftung und der Höhe der Linien ist deutlich zu erkennen, welches Wort am häufigsten genutzt wurde. 
+Der **Unigram**-Output ist ein Liniendiagramm mit der Überschrift "Häufigkeit der Wörter" und einer x- und einer y-Achse. Auf der y-Achse ist die Anzahl der Wörter vermerkt und auf der x-Achse die lineare Zeit. Die Zuordnung der Zeit findet mithilfe der Zeitangaben der Twitter-Beiträge statt. Jedes der fünf häufigsten Wörter in den Beiträgen + "default", welches eine Eigenart von JFreeCharts darstellt, hat jeweils eine eigene Linienfarbe. Unten ist eine Legende abgebildet, die den Wörtern eine Farbe zuordnet. Durch die Achsenbeschriftung und der Höhe der Linien ist deutlich zu erkennen, welches Wort am häufigsten genutzt wurde.
+
+_Unigram-Output_
+![Unigram](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Output/Unigram.png)
 
 Sowohl  die **Bi-** als auch die **Trigramme** sind im Gegensatz dazu als Säulendiagramme dargestellt. Diese geben jeweils die Häufigkeit der Bi- oder Trigramme an. Auf der y-Achse kann man die Anzahl dieser sehen. Genau wie beim Unigram-Output wird mit jeweils verschiedene Farben gearbeitet, um die Anzahl deutlich zu machen. Auch hier wird eine Legende zur Orientierung unter dem Diagramm dargestellt. 
 
+_Bigram-Output_
+![Bigram](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Output/Bigram.png) 
+_Trigram-Output_
+![Trigram](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Output/Trigram.png) 
+
 Die Ergebnisse der **Sentimentanalyse** werden in Form einer Tabelle ausgegeben. Auf der linken Seite der Tabelle stehen die untersuchten Twitter-Beiträge und rechts stehen in der jeweiligen Zeile der errechnete Score für diese Beiträge.
 
-_Für eine bessere Sicht der Ausgabe, hier die Tabelle als Vollbild:_
-![Sentimentanalysen](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Output/Sentimentresults.png)
+_Sentimentanalyse-Output_ 
+![Sentimentanalyse](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Output/Sentimentresults.png)
 
 
 ## Evaluation 
