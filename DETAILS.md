@@ -41,7 +41,7 @@ Eine Anforderungsanalyse wurde mittels Brainstorming und Gesprächen zwischen de
 ATIC Rahmen Nutzeranforderungen | Beschreibung
 ------------------- | ------------ 
 Aufgabe | Analysieren von einem Twitter-Datensatz mit Berücksichtigung der Häufigkeit & der Tonalität der Wörter 
-Rollen | Wissenschaftliche Mitarbeiter, HiWis, SHKs. (?)
+Rollen | Wissenschaftliche Mitarbeiter, HiWis, SHKs
 Information | Twitter-Datensatz (Von Tobias Horsmann zur Verfügung gestellt)
 Kontext | Eine elektronisch zu verwendende Anwendung
 
