@@ -46,7 +46,7 @@ public class TestServlet extends HttpServlet {
 		
 		//doGet(request, response);
 		
-				 
+		//instantiate MyRun to start the processing pipeline		 
 		try {
 			MyRun run = new MyRun();
 			run.runrun();
@@ -63,12 +63,15 @@ public class TestServlet extends HttpServlet {
 		Map<String,Integer> bigramResults = MyRun.getBigramResults();
 		Map<String,Integer> trigramResults = MyRun.getTrigramResults();
 		Map<String,Float> sentimentresults = MyRun.getSentimentResults();
+		
+		//sets the needed information as attributes for the result page
 		request.setAttribute("unigram", pathToUnigram);
 		request.setAttribute("sentiment", sentimentresults);
 		request.setAttribute("bigrampath", pathToBigram);
 		request.setAttribute("trigrampath", pathToTrigram);
 		request.setAttribute("bigram", bigramResults);
 		request.setAttribute("trigram", trigramResults);
+		//forward to result page
 		request.getRequestDispatcher("result.jsp").forward(request, response);
 	}
 

@@ -31,9 +31,12 @@ public class MyRun {
 	private static Map<String, Integer> trigramResults;
 	
 	
+	//constructor that is called from servlet
 	public MyRun () throws ResourceInitializationException, UIMAException, IOException {
 		
+		//instantiates mypipeline
 		bp = new MyPipeline();
+		//call controller method
 		runrun();
 		
 		
@@ -48,19 +51,26 @@ public class MyRun {
 
 	}
 	
-	
+	/**
+	 * 
+	 * this method is the controller and gets all the needed values to create charts
+	 */
 	
 	public static void runrun() throws IOException {
-		
+		//create new utility class dater
 		Dater date = new Dater();
-		
+		//gets the timestamdinformation from tweettimelookup and sets this list as working list
 		date.setDater(TweetTimeLookup.getList0());
+		//calls the method to start the count
 		date.countDater();
 		
 		Map<String,Integer> m0 = new HashMap<String,Integer>();
+		//retrieves the list from dater
 		m0=date.getList();
+		//create new class with retrieved list to sort the timestamps
 		TreeSort ts0=new TreeSort(m0);
 		TreeMap<String, Integer> tm0 = new TreeMap<String,Integer>();
+		//get the sorted array from treesort
 		tm0=ts0.getTree();
 				
 		Dater date1 = new Dater();
@@ -99,8 +109,11 @@ public class MyRun {
 		TreeSort ts4=new TreeSort(m4);
 		tm4=ts4.getTree();						
 		
+		//create new linechart with 5 most frequent samples and the tweet timestamps for those samples
 		chart = new LineChart_AWT(MyWordCounter.getName0(),MyWordCounter.getName1(),MyWordCounter.getName2(),
 				MyWordCounter.getName3(),MyWordCounter.getName4(),tm0,tm1,tm2,tm3,tm4);
+		
+		//this is the path where the unigramchart was saves, need path for result page to display
 		 unigramPath=chart.getFilePath();
 		/**
 		chart.pack( );
@@ -108,23 +121,34 @@ public class MyRun {
 	      chart.setVisible( true );
 	      */
 		 
-		 //unigramPath=chart.getFilePath();		 
+		//gets the sentimentresults,bi,trigrams from pipeline and keeps them in	run maps
 		 sentimentResults=new HashMap<>();
 		 sentimentResults=MySentiEvaluator.getSentimentResults();
 		 bigramResults=MyWordCounter.getMostBigrams();
 		 trigramResults=MyWordCounter.getMostTrigrams();
 		 
+		 //create new barcharts with parameters for bigrams
 		 bigramChart = new BarChart_AWT(bigramResults, "bigramme", "Häufigkeiten der Bigramme");
-		 //bigramChart.pack( );        
-	      //RefineryUtilities.centerFrameOnScreen( bigramChart );        
-	      //bigramChart.setVisible( true );
+		 
+		 //path for bigram file
 	      bigramPath=bigramChart.getFilePath();
 	      
+	      //create barchart with parameter for trigrams
 	      trigramChart = new BarChart_AWT(trigramResults, "trigramme", "Häufigkeiten der Trigramme");
-	      //trigramChart.pack( );        
-	      //RefineryUtilities.centerFrameOnScreen( trigramChart );        
-	      //trigramChart.setVisible( true );
+	      
+	      //path to trigramchart
 	      trigramPath=trigramChart.getFilePath();
+	      
+	      /**
+	       * for checking purposes, creates windows with bi and trigram
+	    bigramChart.pack( );        
+	      RefineryUtilities.centerFrameOnScreen( bigramChart );        
+	      bigramChart.setVisible( true );
+	    trigramChart.pack( );        
+	      RefineryUtilities.centerFrameOnScreen( trigramChart );        
+	      trigramChart.setVisible( true );
+	       * 
+	       */
 	}
 	public static String getdateipfad() {
 		return unigramPath;

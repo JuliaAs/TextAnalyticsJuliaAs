@@ -30,6 +30,7 @@ public class MySentiment extends JCasAnnotator_ImplBase{
 	private List<String> lines1;
 	private int currentLine1;
 	private Map <String, Float> hm;
+	private static boolean foundMatch;
 	
 	@Override
 	 public void initialize(UimaContext context)
@@ -43,18 +44,18 @@ public class MySentiment extends JCasAnnotator_ImplBase{
 		        try {
 					lines1 = FileUtils.readLines(lexicon);
 					currentLine1=0;
-					//System.out.println("initialize " + lines.size());
+					
 					for(String str: lines1) {
-						//System.out.println("initialize : for loop");
+						
 						String[] parts = str.split("\\s+");
 						hm.put(parts[1],Float.parseFloat(parts[0]));
-						//System.out.println(hm);
+						
 					}
 				 
 				}catch (IOException e) {
 		            throw new ResourceInitializationException(e);
 		        }
-		        //System.out.println(hm);
+		       foundMatch = false;
 		    }
 	 
 	
@@ -63,9 +64,7 @@ public class MySentiment extends JCasAnnotator_ImplBase{
 
 	@Override
 	public void process(JCas jcas) throws AnalysisEngineProcessException {
-		
-		
-		String[] parts = lines1.get(currentLine1).split("\\s+");
+		foundMatch=false;		
 		
 		float sentimentscore = 0;
 		
@@ -80,17 +79,18 @@ public class MySentiment extends JCasAnnotator_ImplBase{
 				
 				//if lexicon finds match the value is added to sentimentscore 
 				if(tok.equals(str.getKey())) {
-					
+					foundMatch=true;
 					sentimentscore +=str.getValue();
 					
 				}
 			}
 			//puts score into jcas
+			if(foundMatch = true) {
 			MySentimentScore mysa = JCasUtil.selectSingle(jcas, MySentimentScore.class);
 			mysa.setSentimentScore(sentimentscore);
 			mysa.removeFromIndexes();
 			mysa.addToIndexes();
-			
+			}
 		}
 		currentLine1++;
 	}	

@@ -65,7 +65,8 @@ public class MySentiEvaluator extends JCasAnnotator_ImplBase {
 			}
 			
 		}
-
+		
+		/**
 		int a = Float.compare(ms.getSentimentScore(), (float) 0.0);
 		senti.put(jcas.getDocumentText(), ms.getSentimentScore());
 		if (a == 0) {
@@ -75,6 +76,7 @@ public class MySentiEvaluator extends JCasAnnotator_ImplBase {
 		} else if (a < 0) {
 			System.out.println("compare < 0");
 		}
+		*/
 
 	}
 

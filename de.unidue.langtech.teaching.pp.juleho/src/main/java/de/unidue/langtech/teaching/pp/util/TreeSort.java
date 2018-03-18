@@ -19,15 +19,7 @@ public class TreeSort {
 		tm = new TreeMap<String,Integer>();
 		
 		tm.putAll(m);
-		/**
-		for (String elem : tm.keySet()) {
-			System.out.println(elem + " - " + tm.get(elem));
-		hm.put(elem,tm.get(elem));
 		
-		}*/
-		//System.out.println("hm " + hm);
-		//System.out.println("tm " + tm);
-		//System.out.println("treesort m" + tm);		
 		/**
 		TreeMap<String, Integer>tm = new TreeMap<String,Integer>();
 		tm.put("20:40:39",1);

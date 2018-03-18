@@ -30,7 +30,7 @@ public class MyPipeline {
 	// get the sentiment lexicon
 	private static final URL LEXICON_FILE = MyPipeline.class.getClassLoader().getResource("lexicon.txt");
 
-	// regular expressen to filter out everything else except words
+	// regular expression to filter out everything else except words
 	private static final String regex = "[a-zA-Z]+";
 
 	// array for most frequent unigrams
@@ -39,7 +39,8 @@ public class MyPipeline {
 	/**
 	 * runs the pipeline twice first iteration for getting the wordcount second
 	 * iteration to get the tweet time stamps for the counted words
-	 * 
+	 * this method to run the pipeline twice was chosen instead of using a bincaswriter and ~reader
+	 * because it is easier to implement in a webapp using a tomcat server
 	 */
 	public MyPipeline() throws ResourceInitializationException, UIMAException, IOException {
 
@@ -63,8 +64,8 @@ public class MyPipeline {
 
 					AnalysisEngineFactory.createEngineDescription(CasDumpWriter.class));
 
-			mostFrequentSamples = MyWordCounter.getMostFrequentSamples();
-			System.out.println("Mypipeline" + mostFrequentSamples);
+			//mostFrequentSamples = MyWordCounter.getMostFrequentSamples();
+			//System.out.println("Mypipeline" + mostFrequentSamples);
 		}
 		{
 			SimplePipeline.runPipeline(
@@ -109,7 +110,7 @@ public class MyPipeline {
 
 					AnalysisEngineFactory.createEngineDescription(CasDumpWriter.class));
 			mostFrequentSamples = MyWordCounter.getMostFrequentSamples();
-			System.out.println("Mypipeline" + mostFrequentSamples);
+			//System.out.println("Mypipeline" + mostFrequentSamples);
 		}
 		{
 			SimplePipeline.runPipeline(

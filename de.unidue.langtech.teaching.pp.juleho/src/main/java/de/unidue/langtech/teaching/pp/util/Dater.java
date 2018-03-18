@@ -14,7 +14,7 @@ import java.util.*;
 public class Dater {
 
 	public static SimpleDateFormat sdf;
-	static ArrayList<String> raw;
+	static ArrayList<String> rawData;
 	static String vorgabe = "Wed Jan 28 19:39:56 +0000 2015";
 	static String vorgabe1 = "Wed Jan 28 19:39:59 +0000 2015";
 	static String vorgabe2 = "Wed May 10 19:45:07 +0000 2017";
@@ -30,7 +30,7 @@ public class Dater {
 		parseddate = new ArrayList<Date>();
 		mystring = new ArrayList<>();
 
-		
+		//construct a dateformat with pattern to handle the string timeinformation from tweets
 		sdf = new SimpleDateFormat("EEEE MMM dd HH:mm:ss z yyyy", Locale.US);		
 
 	}
@@ -73,7 +73,7 @@ public class Dater {
 	}
 
 	public void setDater(ArrayList<String> al) {
-		raw=al;
+		rawData=al;
 
 	}
 
@@ -83,16 +83,21 @@ public class Dater {
 	}
 	
 	/**
-	 * check if timestamp are between set boundaries
-	 * eg. posts between 9:45:30 and 9:50:00
+	 * parse the string tweettimeinformation to a date object to operate with date function
+	 * 
 	 */
 
 	public void countDater() {
 		try {
-			for (String s : raw) {
+			for (String s : rawData) {
 				Date dp = sdf.parse(s);
 				datelist.add(dp);				
 			}
+			/**
+			 * check if timestamp are between set boundaries
+			 * eg. posts between 9:45:30 and 9:50:00
+			 * this is a leftover from removed functionality
+			 */
 
 			Date vg = sdf.parse(vorgabe2);
 			Date vg1 = sdf.parse(vorgabe3);

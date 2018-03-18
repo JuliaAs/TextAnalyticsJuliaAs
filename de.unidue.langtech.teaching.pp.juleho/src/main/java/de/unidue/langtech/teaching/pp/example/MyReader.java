@@ -65,7 +65,7 @@ public class MyReader extends JCasCollectionReader_ImplBase {
         
         try {
         	
-        	//lines = IOUtils.readLines(in, "UTF-8");
+        	//reads file and uses utf8 encoding
            lines = FileUtils.readLines(inputFile, "UTF-8");
            currentLine = 0;
         }
@@ -102,20 +102,21 @@ public class MyReader extends JCasCollectionReader_ImplBase {
     }
 		String xt = getExtract(line, CREATE_MARKER, MARKER_END);
     
+		//adds timestamp from tweet to cas
         TweetTimeStamp ts = new TweetTimeStamp(jcas);
         ts.setTweetPostTime(xt);
         ts.addToIndexes();
         
-     // set payload as the document text
+        //set payload as the document text
         String extract = getExtract(line, TEXT_MARKER, MARKER_END);
         
-     // annotate raw-tweet in an own type we 
+        //adds the raw tweet to jcas
         MyRawTweet raw = new MyRawTweet(jcas);
         raw.setRawTweet(extract);
         raw.addToIndexes();
 
-        MySentimentScore ms = new MySentimentScore(jcas);
-        //set default value 100 for sentiment score
+        //adds default sentiment score to jcas
+        MySentimentScore ms = new MySentimentScore(jcas);        
         ms.setSentimentScore(100);
         ms.addToIndexes();
 
