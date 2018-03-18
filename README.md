@@ -73,9 +73,11 @@ _Unigram-Output_
 Sowohl  die **Bi-** als auch die **Trigramme** sind im Gegensatz dazu als Säulendiagramme dargestellt. Diese geben jeweils die Häufigkeit der Bi- oder Trigramme an. Auf der y-Achse kann man die Anzahl dieser sehen. Genau wie beim Unigram-Output wird mit jeweils verschiedene Farben gearbeitet, um die Anzahl deutlich zu machen. Auch hier wird eine Legende zur Orientierung unter dem Diagramm dargestellt. 
 
 _Bigram-Output_
+
 ![Bigram](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Output/Bigram.png) 
 
 _Trigram-Output_
+
 ![Trigram](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Output/Trigram.png) 
 
 Die Ergebnisse der **Sentimentanalyse** werden in Form einer Tabelle ausgegeben. Auf der linken Seite der Tabelle stehen die untersuchten Twitter-Beiträge und rechts stehen in der jeweiligen Zeile der errechnete Score für diese Beiträge.
