@@ -12,7 +12,6 @@
    - [Häufigkeitsanalyse](#häufigkeitsanalyse) 
    - [Sentimentanalyse](#sentimentanalyse) 
 - [Fazit](#fazit) 
-- [Beteiligte](#beteiligte)
 
 ## Vorstellung des Praxisprojekts
 Die Aufgabe des Praxisprojekts ist es eine **Anwendung zur Analyse von textbasierter Sprache** zu implementieren. Dafür teilten sich die Teilnehmer des Praxisprojekts in dreier Gruppen auf und überlegten sich eine Problemstellung, die sie mithilfe ihrer Anwendung lösen wollten.
@@ -176,6 +175,3 @@ Im Folgenden finden Sie ein Resümee über die Anwendung:
 Die Funktionalitäten der Anwendung sind auf die Häufigkeits- und Sentimentanalyse beschränkt. Das Programm unterstützt in der jetzigen Version keine Arbeit mit externen Datensätze und der Nutzer kann keine Einstellungen an der Anwendung vornehmen. Dies ist unter anderem der Fall, da die geplante Einstellung des Zeitraums der zu analysierenden Beiträge zu Problemen bei der Kodierung geführt hat und somit wegfiel. Bei der Evaluation zeigte die Häufigkeitsanalyse außerdem eine Problematik mit falsch geschriebenen Wörtern und  die Sentimentanalyse eine Schwäche für Neutralität und Trendwörter sowie Verneinungen in den Beiträgen.     
 
 Die Funktionalitäten zeigen jedoch keine größere Fehleranfälligkeit. Es gibt ein **User-Interface**, die **Häufigkeitsanalyse** sucht die häufigsten Wörter/Wortkombinationen im Zusammenhang der jeweiligen Zeitangaben der Beiträge, gibt diese grafisch als **Uni-, Bi- und Trigramme** aus und die **Sentimentanalyse** lässt Schlüsse über die Tonalität der Beiträge ziehen. 
-
-## Beteiligte 
-Dieses Praxisprojekt wurde von Julia Astrahantsewa, Hong-Le Kim und Leon Weisbrod unter der Betreuung von Tobias Horsmann bearbeitet.
