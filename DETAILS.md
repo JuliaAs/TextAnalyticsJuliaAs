@@ -11,7 +11,7 @@ Zum Beginn der Gruppenarbeit hat die Gruppe sich eine Thematik für die zu imple
 
 Nachdem die Gruppe viel Zeit in die Recherche investiert hatte, hielt sie Rücksprache mit Prof. Dr.-Ing. Torsten Zech. Im Gespräch mit Ihm definierte sich eine Häufigkeitsanalyse der Wörter in Beiträgen als gute Anwendungsfunktionalität. Daraufhin wurde eine **Textanalyse von Twitter-Beiträgen auf prägnante Themeninhalte als Ziel der Anwendung festgelegt**. Herr Tobias Horsmann schickte der Gruppe einen Twitter-Datensatz, an welchem die Analyse getestet werden konnte. An der Häufigkeitsanalyse und dem User-Interface wurde bis zur Abschlusspräsentation gearbeitet.
 
-Die in der Abschlusspräsentation genannten Kritikpunkte hat man bis zur Abgabe versucht umzusetzen. Nach der Präsentation wurde zusätzlich zur eindimensionalen Häufigkeitsanalyse als Unigram sowohl noch eine als Bigram, eine als Trigram sowie eine Sentimentanalyse in die Anwendung implementiert. Parallel zur Implementierung der beiden Textanalysen (VERLINKUNG ZUR IMPLEMENTIERUNG) wurde an der [Dokumentation des Praxisprojekts](README.md) gearbeitet.
+Die in der Abschlusspräsentation genannten Kritikpunkte hat man bis zur Abgabe versucht umzusetzen. Nach der Präsentation wurde zusätzlich zur eindimensionalen Häufigkeitsanalyse (Unigram) sowohl noch eine Analyse der Bigramme, der Trigramme sowie eine Sentimentanalyse in die Anwendung implementiert. Parallel zur Implementierung der beiden Textanalysen (VERLINKUNG ZUR IMPLEMENTIERUNG) wurde an der [Dokumentation des Praxisprojekts](README.md) gearbeitet.
 
 
 ## Gruppeninterne Vorgehensweise
