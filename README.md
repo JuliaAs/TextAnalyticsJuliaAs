@@ -77,7 +77,8 @@ right click project→export→war file
 
 $TOMCAT_HOME/conf/tomcat-users.xml einfügen 
 
-<user username="admin" password="admin" roles="manager-gui" /> in <tomcat-users> Copy the WAR file into $CATALINA_HOME\webapps directory, http://localhost:8080/manager
+"<user username="admin" password="admin" roles="manager-gui" />" in "<tomcat-users>" 
+Copy the WAR file into $CATALINA_HOME\webapps directory, http://localhost:8080/manager
 
 Start application (in manager): http://localhost:8080/de.unidue.langtech.teaching.pp.juleho/Startseite.html
 
