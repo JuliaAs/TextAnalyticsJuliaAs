@@ -45,7 +45,7 @@ Rollen | Wissenschaftliche Mitarbeiter, HiWis, SHKs
 Information | Twitter-Datensatz (Von Tobias Horsmann zur Verfügung gestellt)
 Kontext | Eine elektronisch zu verwendende Anwendung
 
-Der ATIC Rahmen wurde nach dem Wissen aus der Vorlesung "Mensch-Computer-Interaktion" von Prof. Dr. -Ing. Jürgen Ziegler aus dem WS 2016/2017 erstellt. 
+Der ATIC Rahmen wurde nach dem Wissen aus der Vorlesung "Mensch-Computer-Interaktion" von Prof. Dr. -Ing. Jürgen Ziegler aus dem Wintersemester 2016/2017 erstellt. 
 
 ### Mock-Ups
 Für die erste Version der Anwendung wurde außerdem ein Mockup Modell erstellt, um die Funktionen der Anwendung zu verdeutlichen. Natürlich weichen die Mock-Ups von der fertigen Anwendung ab:
