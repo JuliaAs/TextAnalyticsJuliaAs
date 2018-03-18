@@ -101,7 +101,7 @@ Die Häufigkeitsanalyse wird auf den integrierten Twitter-Datensatz evaluiert. S
   - Eine Problematik der Analyse ist zum Beispiel: Sind Wörter häufig falsch geschrieben, werden sie getrennt zu den Wörtern, die richtig geschrieben bzw. gemeint wurden gezählt.
 
 ### Sentimentanalyse 
-Die Sentimentanalyse wird anhand von 30 Twitter-Beiträgen evaluiert. Diese bestehen aus jeweils 10 positiven, 10 negativen und 10 neutralen Twitter-Beiträgen, die als "Goldstandard" festgelegt werden. Diese sind im Ressouce-Ordner unter [sagold.txt](TextAnalyticsJuliaAs/de.unidue.langtech.teaching.pp.juleho/src/test/resources/test/sagold.txt) für Sie einsehbar.
+Die Sentimentanalyse wird anhand von 30 Twitter-Beiträgen evaluiert. Diese bestehen aus jeweils 10 positiven, 10 negativen und 10 neutralen Twitter-Beiträgen, die als "Goldstandard" festgelegt werden. Diese sind im Ressouce-Ordner unter [sagold.txt](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/de.unidue.langtech.teaching.pp.juleho/src/test/resources/test/sagold.txt) für Sie einsehbar.
 
 - Ergebnis:
   - **10 von 10 negativen Beiträgen wurden erkannt**
