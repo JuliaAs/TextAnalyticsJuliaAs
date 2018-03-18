@@ -8,7 +8,7 @@
    - [Einrichtung](#einrichtung)
    - [Konfiguration](#konfiguration)
    - [Verwendung](#verwendung) x 
-- [Output](#output)
+- [Output](#output) x
 - [Evaluation](#evaluation) x
    - [Häufigkeitsanalyse](#häufigkeitsanalyse) x
    - [Sentimentanalyse](#sentimentanalyse) x
