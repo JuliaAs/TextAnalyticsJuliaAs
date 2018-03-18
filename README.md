@@ -45,7 +45,7 @@ Im Folgenden finden Sie eine Anleitung zur [Einrichtung](#einrichtung), [Konfigu
 
 ### Einrichtung
 - Das Programm wurde entwickelt und getestet mit:
-   - Eclipse jee Oxygen 2
+   - Eclipse jee Oxygen 2 4.7.2
    - Tomcat 8.5
    - JDK 1.8.0
 
@@ -58,19 +58,33 @@ Im Folgenden finden Sie eine Anleitung zur [Einrichtung](#einrichtung), [Konfigu
    - JRE 1.7 (oder größer)
    - Tomcat 8.0 (und neuer)
    
-Die Einrichtung in Eclipse sieht wie folgt aus: file → new → other → server → server → next → apache → tomcat →next/yourPathToTomcat/window → open perspective → other → java ee 
+Die Einrichtung in Eclipse sieht wie folgt aus: 
 
-Der Start ist: webproject → webcontent → right click startseite.html → run as → run on server (ggf. choose existing server) Eclipse intern Browser Starts, Klick Start
+file → new → other → server → server → next → apache → tomcat →next/yourPathToTomcat
+
+/window → open perspective → other → java ee 
+
+Der Start ist: 
+
+webproject → webcontent → right click startseite.html → run as → run on server (ggf. choose existing server) 
+
+Eclipse intern Browser Starts, Klick Start
 
 Eine alternative Methode ist: click server → start server → open browser → http://localhost:8080/de.unidue.langtech.teaching.pp.juleho/Startseite.html 
 
-Alternative Einrichtung mit „deployment as war file“, right click project→export→war file, $TOMCAT_HOME/conf/tomcat-users.xml einfügen <user username="admin" password="admin" roles="manager-gui" /> in <tomcat-users>, Copy the WAR file into $CATALINA_HOME\webapps directory, http://localhost:8080/manager
+Alternative Einrichtung mit „deployment as war file“ 
+
+right click project→export→war file
+
+$TOMCAT_HOME/conf/tomcat-users.xml einfügen 
+
+<user username="admin" password="admin" roles="manager-gui" /> in <tomcat-users>, Copy the WAR file into $CATALINA_HOME\webapps directory, http://localhost:8080/manager
 
 Start application (in manager): http://localhost:8080/de.unidue.langtech.teaching.pp.juleho/Startseite.html
 
 Trouble Shooting: 
 
-server tab → right click → add / remove → chose project 
+server tab → right click → add / remove → choose project 
 
 window/preferences → server/runtime environments → add server runtime
 
@@ -83,7 +97,7 @@ right click project → properties → deployment assembly → add → folder �
 3 Files werden auf dem Client gespeichert, unter Windows erfolgreich getestet.
 
 ### Verwendung
-_**Der zu analysierende Datensatz ist in dieser Version vorgegeben. Eine Option zum Hochladen externer Datensätze ist nicht gegeben, jedoch eine Funktionalität, die bei einer eventuellen Veröffentlichung der Anwendung dazu kommen sollte. Der jetztige Entwicklungstand dient nur zur Veranschaulichung der Funktionalitäten der Anwendung innerhalb des Praxisprojekts**_
+_**Der zu analysierende Datensatz ist in dieser Version vorgegeben. Eine Option zum Hochladen externer Datensätze ist nicht gegeben, jedoch wäre dies eine Funktionalität, die bei einer eventuellen Veröffentlichung der Anwendung dazu kommen sollte. Der jetztige Entwicklungstand dient nur zur Veranschaulichung der Funktionalitäten der Anwendung innerhalb des Praxisprojekts**_
 
 Der Nutzer ruft die Startseite der Anwendung auf und sieht ein Startbutton. Nachdem dieser angeklickt worden ist, startet die Analyse des integrieten Datensatzes. Es folgt ein Output, der die Häufigkeitsanalyse der häufigsten fünf Wörter/Wortkombinationen (Uni-, Bi- sowie Trigramme) und eine Sentimentanalyse der Beiträge beinhaltet. 
 
