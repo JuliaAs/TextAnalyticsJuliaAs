@@ -74,6 +74,7 @@ Sowohl  die **Bi-** als auch die **Trigramme** sind im Gegensatz dazu als Säule
 
 _Bigram-Output_
 ![Bigram](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Output/Bigram.png) 
+
 _Trigram-Output_
 ![Trigram](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Output/Trigram.png) 
 
