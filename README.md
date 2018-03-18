@@ -58,16 +58,22 @@ Der Nutzer ruft die Startseite der Anwendung auf und sieht ein Startbutton. Nach
 ## Output
 Die Anwendung gibt nach den Analysen vier verschiedene Outputs aus:
 - Häufigkeitsanalyse
-  - Unigram
-  - Bigram
-  - Trigram
+  - Unigram-Output
+  - Bigram-Output
+  - Trigram-Output
 - Sentimentanalyse 
 
 Eine Übersicht aller Outputs der Anwendung in grafischer Form ![finden Sie zusätzlich hier](Output). 
 
-Das **Unigram** ist ein Liniendiagramm mit der Überschrift "Häufigkeit der Wörter" und einer x- und einer y-Achse. Auf der x-Achse ist die Anzahl der Wörter vermerkt und auf der y-Achse die lineare Zeit. Die Zuordnung der Zeit findet mithilfe der Zeitangaben der Twitter-Beiträgen statt. Jedes der fünf häufigsten Wörter in den Beiträgen hat jeweils eine eigene Linienfarbe. Durch die Achsenbeschreibung und der Höhe der Linien ist deutlich zu erkennen, welches Wort am häufigsten genutzt wurde.
+Der **Unigram**-Output ist ein Liniendiagramm mit der Überschrift "Häufigkeit der Wörter" und einer x- und einer y-Achse. Auf der y-Achse ist die Anzahl der Wörter vermerkt und auf der x-Achse die lineare Zeit. Die Zuordnung der Zeit findet mithilfe der Zeitangaben der Twitter-Beiträge statt. Jedes der fünf häufigsten Wörter in den Beiträgen + "default", welches eine Eigenart von JFreeCharts darstellt, hat jeweils eine eigene Linienfarbe. Unten ist eine Legende abgebildet, die den Wörtern eine Farbe zuordnet. Durch die Achsenbeschriftung und der Höhe der Linien ist deutlich zu erkennen, welches Wort am häufigsten genutzt wurde. 
 
-Sowohl  das **Bi-** als auch das **Trigram** sind im Gegensatz dazu Säulendiagramme.
+Sowohl  die **Bi-** als auch die **Trigramme** sind im Gegensatz dazu als Säulendiagramme dargestellt. Diese geben jeweils die Häufigkeit der Bi- oder Trigramme an. Auf der y-Achse kann man die Anzahl dieser sehen. Genau wie beim Unigram-Output wird mit jeweils verschiedene Farben gearbeitet, um die Anzahl deutlich zu machen. Auch hier wird eine Legende zur Orientierung unter dem Diagramm dargestellt. 
+
+Die Ergebnisse der **Sentimentanalyse** werden in Form einer Tabelle ausgegeben. Auf der linken Seite der Tabelle stehen die untersuchten Twitter-Beiträge und rechts stehen in der jeweiligen Zeile der errechnete Score für diese Beiträge.
+
+_Für eine bessere Sicht der Ausgabe, hier die Tabelle als Vollbild:_
+![Sentimentanalysen](TextAnalyticsJuliaAs/Output/Sentimentresults.png)
+
 
 ## Evaluation 
 Im Folgenden wird die Evaluation der [Häufigkeitsanalyse](#häufigkeitsanalyse), die [Sentimentsanalyse](#sentimentanalyse) und die [grafische Ausgabe](#grafische-ausgabe) der Anwendung vorgestellt.
@@ -117,4 +123,4 @@ Im Folgenden finden Sie ein Resümee über die Anwendung:
 
 Die Funktionalitäten der Anwendung sind auf die Häufigkeits- und Sentimentanalyse beschränkt. Das Programm unterstützt in der jetzigen Version keine Arbeit mit externen Datensätze und der Nutzer kann keine Einstellungen an der Anwendung vornehmen. Dies ist unter anderem der Fall, da die geplante Einstellung des Zeitraums der zu analysierenden Beiträge zu Problemen bei der Kodierung geführt hat und somit wegfiel. Bei der Evaluation zeigte die Häufigkeitsanalyse außerdem eine Problematik mit falsch geschriebenen Wörtern und  die Sentimentanalyse eine Schwäche für Neutralität in den Beiträgen.     
 
-Die Funktionalitäten zeigen jedoch keine größere Fehleranfälligkeit. Es gibt ein **User-Interface**, die **Häufigkeitsanalyse** sucht die häufigsten Wörter/Wortkombinationen im Zusammenhang der jeweiligen Zeitangaben der Beiträge, gibt diese grafisch als **Uni-, Bi- und Trigram** aus und die **Sentimentanalyse** lässt Schlüsse über die Tonalität der Beiträge ziehen. 
+Die Funktionalitäten zeigen jedoch keine größere Fehleranfälligkeit. Es gibt ein **User-Interface**, die **Häufigkeitsanalyse** sucht die häufigsten Wörter/Wortkombinationen im Zusammenhang der jeweiligen Zeitangaben der Beiträge, gibt diese grafisch als **Uni-, Bi- und Trigramme** aus und die **Sentimentanalyse** lässt Schlüsse über die Tonalität der Beiträge ziehen. 
