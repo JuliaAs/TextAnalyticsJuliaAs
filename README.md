@@ -1,17 +1,17 @@
 # Dokumentation des Praxisprojekts
 
 ## Inhaltsangabe 
-- [Vorstellung des Praxisprojekts](#vorstellung-des-praxisprojekts) x
-   - [Ablauf der Projektarbeit](#ablauf-der-projektarbeit) x
-   - [Ziel der Anwendung](#ziel-der-anwendung) x   
-- [Anleitung der Anwendung](#anleitung-der-anwendung) x 
+- [Vorstellung des Praxisprojekts](#vorstellung-des-praxisprojekts) 
+   - [Ablauf der Projektarbeit](#ablauf-der-projektarbeit) 
+   - [Ziel der Anwendung](#ziel-der-anwendung)    
+- [Anleitung der Anwendung](#anleitung-der-anwendung) 
    - [Einrichtung](#einrichtung)
-   - [Verwendung](#verwendung) x 
-- [Output](#output) x
-- [Evaluation](#evaluation) x
-   - [Häufigkeitsanalyse](#häufigkeitsanalyse) x
-   - [Sentimentanalyse](#sentimentanalyse) x
-- [Fazit](#fazit) x
+   - [Verwendung](#verwendung)  
+- [Output](#output) 
+- [Evaluation](#evaluation) 
+   - [Häufigkeitsanalyse](#häufigkeitsanalyse) 
+   - [Sentimentanalyse](#sentimentanalyse) 
+- [Fazit](#fazit) 
 - [Beteiligte](#beteiligte)
 
 ## Vorstellung des Praxisprojekts
@@ -44,8 +44,19 @@ Damit lassen sich Aussagen über die Relevanz eines Themas, den zeitlichen Verla
 Im Folgenden finden Sie eine Anleitung zur [Einrichtung](#einrichtung), [Konfiguration](#konfiguration) und [Verwendung](#verwendung) der Anwendung.
 
 ### Einrichtung
-FEHLT (to do)
+- Das Programm wurde entwickelt und getestet mit:
+   - Eclipse jee Oxygen 2
+   - Tomcat 8.5
+   - JDK 1.8.0
 
+- Zusätzlich wurden folgende Tools verwendet:
+   - JSP
+   - jstl 1.2
+   - JFreeCharts 1.0.19
+
+...und die Voraussetzungen für die Anwendung ist:
+   - JRE 1.7 (oder größer)
+   - Tomcat 8.0 (und neuer)
 
 ### Verwendung
 _**Der zu analysierende Datensatz ist in dieser Version vorgegeben. Eine Option zum Hochladen externer Datensätze ist nicht gegeben, jedoch eine Funktionalität, die bei einer eventuellen Veröffentlichung der Anwendung dazu kommen sollte. Der jetztige Entwicklungstand dient nur zur Veranschaulichung der Funktionalitäten der Anwendung innerhalb des Praxisprojekts**_
