@@ -132,7 +132,7 @@ Die Ergebnisse der **Sentimentanalyse** werden in Form einer Tabelle ausgegeben.
 ![Sentimentanalyse](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Output/Sentimentresults.png)
 
 ## Evaluation 
-Im Folgenden wird die Evaluation der [Häufigkeitsanalyse](#häufigkeitsanalyse), die [Sentimentsanalyse](#sentimentanalyse) und die [grafische Ausgabe](#grafische-ausgabe) der Anwendung vorgestellt.
+Im Folgenden wird die Evaluation der [Häufigkeitsanalyse](#häufigkeitsanalyse) und der [Sentimentsanalyse](#sentimentanalyse) der Anwendung vorgestellt.
 
 ### Häufigkeitsanalyse
 Die Häufigkeitsanalyse wird auf den integrierten Twitter-Datensatz evaluiert. Sie erfolgt auf Tokenbasis. d.h. die Erkennungsrate der Tokens ist 100%. Es wurden vor dem Zählen der Tokens einige Filter angewendet, um die für die Analysen unnötige Zeichen zu entfernen:
