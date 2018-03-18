@@ -72,7 +72,7 @@ Sowohl  die **Bi-** als auch die **Trigramme** sind im Gegensatz dazu als Säule
 Die Ergebnisse der **Sentimentanalyse** werden in Form einer Tabelle ausgegeben. Auf der linken Seite der Tabelle stehen die untersuchten Twitter-Beiträge und rechts stehen in der jeweiligen Zeile der errechnete Score für diese Beiträge.
 
 _Für eine bessere Sicht der Ausgabe, hier die Tabelle als Vollbild:_
-![Sentimentanalysen](TextAnalyticsJuliaAs/Output/Sentimentresults.png)
+![Sentimentanalysen](https://github.com/JuliaAs/TextAnalyticsJuliaAs/blob/master/Output/Sentimentresults.png)
 
 
 ## Evaluation 
